@@ -1,0 +1,363 @@
+# Translation of Plugins - Premmerce WooCommerce Product Filter - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Premmerce WooCommerce Product Filter - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-03 13:43:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Premmerce WooCommerce Product Filter - Stable (latest release)\n"
+
+#: views/admin/tabs/seo.php:18
+msgid "Update paths"
+msgstr "Обновить пути"
+
+#: views/admin/tabs/seo.php:15
+msgid "Generate Rules"
+msgstr "Сгенерировать правила"
+
+#: views/admin/tabs/attributes.php:102
+msgid "Save"
+msgstr "Сохранить"
+
+#: views/admin/tabs/attributes.php:61
+msgid "Setup colors"
+msgstr "Настроить цвета"
+
+#: views/admin/seo/table/column-h1.php:28
+msgid "View"
+msgstr "Просмотр"
+
+#: views/admin/seo/table/column-h1.php:23
+msgid "Delete"
+msgstr "Удалить"
+
+#: views/admin/seo/table/column-h1.php:17
+msgid "Edit"
+msgstr "Редактировать"
+
+#: views/admin/seo/generate-rules.php:59
+msgid "Generate"
+msgstr "Сгенерировать"
+
+#: views/admin/seo/generate-rules.php:55
+msgid "Add taxonomy"
+msgstr "Добавить таксономию"
+
+#: views/admin/seo/generate-rules.php:41 views/admin/seo/generate-rules.php:66
+msgid "Taxonomies"
+msgstr "Таксономии"
+
+#: views/admin/seo/generate-rules.php:31
+msgid "Select category"
+msgstr "Выберите категорию"
+
+#: views/admin/seo/generate-rules.php:28
+msgid "Categories"
+msgstr "Категории"
+
+#: views/admin/seo/generate-rules.php:26
+msgid "Generate rules"
+msgstr "Сгенерировать правила"
+
+#: views/admin/seo/form.php:58
+msgid "Add"
+msgstr "Добавить"
+
+#: views/admin/seo/form.php:39
+msgid "Term"
+msgstr "Значение"
+
+#: views/admin/seo/form.php:38
+msgid "Taxonomy"
+msgstr "Таксономия"
+
+#: views/admin/seo/form.php:31
+msgid "Category"
+msgstr "Категория"
+
+#: views/admin/seo/form.php:27 views/admin/seo/form.php:69
+msgid "Update rule"
+msgstr "Обновить правило"
+
+#: views/admin/seo/form.php:22
+msgid "Visit page"
+msgstr "Посетить страницу"
+
+#: views/admin/seo/form.php:19 views/admin/seo/generate-rules.php:14
+msgid "Back"
+msgstr "Назад"
+
+#: views/admin/seo/form.php:15 views/admin/seo/form.php:67
+msgid "Add new rule"
+msgstr "Добавить новое правило"
+
+#: views/admin/macros.php:126
+msgid "Enable this rule."
+msgstr "Включить это правило."
+
+#: views/admin/macros.php:123
+msgid "Enable"
+msgstr "Включить"
+
+#: views/admin/macros.php:114
+msgid "Description"
+msgstr "Описание "
+
+#: views/admin/macros.php:105
+msgid "Meta description"
+msgstr "Мета описание"
+
+#: views/admin/macros.php:91
+msgid "H1"
+msgstr "H1"
+
+#: views/admin/macros.php:58 views/admin/macros.php:63
+msgid "Select term"
+msgstr "Выберите значение"
+
+#: views/admin/macros.php:45 views/admin/seo/generate-rules.php:45
+#: views/admin/seo/generate-rules.php:70
+msgid "Select taxonomy"
+msgstr "Выберите таксономию"
+
+#: views/admin/macros.php:31
+msgid "Number of products"
+msgstr "Количество товаров"
+
+#: views/admin/macros.php:28
+msgid "Max price"
+msgstr "Максимальная цена"
+
+#: views/admin/macros.php:25
+msgid "Min price"
+msgstr "Минимальная цена"
+
+#: views/admin/macros.php:16
+msgid "Category description"
+msgstr "Описание категории"
+
+#: views/admin/macros.php:13
+msgid "Category name"
+msgstr "Название категории"
+
+#: src/Admin/Tabs/Attributes.php:101
+msgid "Scroll + Dropdown"
+msgstr "Випадающий список + Прокрутка"
+
+#: src/Admin/Tabs/Attributes.php:100
+msgid "Scroll"
+msgstr "Прокрутка"
+
+#: src/Admin/Tabs/Attributes.php:99
+msgid "Dropdown"
+msgstr "Випадающий список"
+
+#: src/Admin/Tabs/Attributes.php:98
+msgid "Default"
+msgstr "По умолчанию"
+
+#: src/Admin/Tabs/Attributes.php:94
+msgid "Select"
+msgstr "Выпадающий список"
+
+#: src/Admin/Tabs/Attributes.php:93
+msgid "Radio"
+msgstr "Радио кнопка"
+
+#: src/Admin/Tabs/Attributes.php:92
+msgid "Checkbox"
+msgstr "Чекбокс"
+
+#: src/Admin/Admin.php:81
+msgid "Please enable permalinks to use SEO rules"
+msgstr "Пожалуйста, включите постоянные ссылки для использования правил SEO"
+
+#: src/Filter/Items/Types/PriceFilter.php:47
+msgid "Filter by price"
+msgstr "Фильтровать по цене"
+
+#: views/frontend/active_filters.php:29
+msgid "Remove filter"
+msgstr "Удалить фильтр"
+
+#: src/Widget/ActiveFilterWidget.php:38
+msgid "Rated %s out of 5"
+msgstr "Оценка %s из 5"
+
+#: src/Filter/Items/Types/PriceFilter.php:86
+msgid "Max %s"
+msgstr "Макс %s"
+
+#: src/Filter/Items/Types/PriceFilter.php:80
+msgid "Min %s"
+msgstr "Мин %s"
+
+#: src/Widget/ActiveFilterWidget.php:17
+msgid "Product attributes active filters"
+msgstr "Активные фильтры атрибутов товаров"
+
+#: src/Widget/ActiveFilterWidget.php:15
+msgid "Premmerce active filters"
+msgstr "Premmerce активние фильтры "
+
+#: src/Admin/Tabs/Settings.php:47
+msgid "Show price filter"
+msgstr "Показывать фильтр по цене"
+
+#: src/Admin/Tabs/Attributes.php:107 views/admin/tabs/attributes.php:33
+msgid "Display as"
+msgstr "Отображать как"
+
+#: src/Admin/Tabs/Attributes.php:106 views/admin/tabs/attributes.php:32
+msgid "Field type"
+msgstr "Тип поля"
+
+#: views/admin/tabs/cache.php:15
+msgid "Clear cache"
+msgstr "Очистить кэш"
+
+#: src/Admin/Admin.php:110 src/Admin/Admin.php:111
+msgid "Product filter"
+msgstr "Настройки фильтра"
+
+#. Author URI of the plugin/theme
+msgid "https://premmerce.com"
+msgstr "https://premmerce.com"
+
+#. Author of the plugin/theme
+msgid "premmerce"
+msgstr "premmerce"
+
+#. Description of the plugin/theme
+msgid "Premmerce WooCommerce Product Filter plugin is a convenient and flexible tool for managing filters for WooCommerce products."
+msgstr "Данный плагин представляет собой удобный и гибкий инструмент для управления фильтрами для товаров WooCommerce."
+
+#. Plugin URI of the plugin/theme
+msgid "https://premmerce.com/woocommerce-product-filter/"
+msgstr "https://premmerce.com/woocommerce-product-filter/"
+
+#: views/frontend/types/select.php:3
+msgid "Any %s"
+msgstr "Любой %s"
+
+#: src/Admin/Tabs/Cache.php:34 views/admin/tabs/cache.php:9
+msgid "Cache"
+msgstr "Кэш"
+
+#: src/Admin/Tabs/Settings.php:72
+msgid "Store"
+msgstr "Магазин"
+
+#: src/Admin/Tabs/Settings.php:68 views/admin/tabs/seo.php:28
+msgid "Search"
+msgstr "Поиск"
+
+#: src/Admin/Tabs/Settings.php:60
+msgid "Tag"
+msgstr "Тег"
+
+#: src/Admin/Tabs/Settings.php:56
+msgid "Product category"
+msgstr "Категория товаров"
+
+#: src/Admin/Tabs/Settings.php:52
+msgid "Show filter on pages"
+msgstr "Показывать фильтр на страницах"
+
+#: src/Admin/Tabs/Settings.php:43
+msgid "Hide empty terms"
+msgstr "Спрятать пустые значения"
+
+#: src/Admin/Tabs/Settings.php:39
+msgid "Behavior"
+msgstr "Поведение"
+
+#: src/Admin/Tabs/Settings.php:64 views/admin/tabs/brands.php:25
+msgid "Brand"
+msgstr "Бренд"
+
+#: views/admin/tabs/attributes.php:92 views/admin/tabs/brands.php:56
+#: views/admin/tabs/taxonomy.php:55
+msgid "No items found"
+msgstr "Значений не найдено"
+
+#: src/Admin/Tabs/Attributes.php:105 views/admin/tabs/attributes.php:36
+#: views/admin/tabs/brands.php:26 views/admin/tabs/taxonomy.php:25
+msgid "Visibility"
+msgstr "Видимость"
+
+#: src/Admin/Tabs/Settings.php:76 views/admin/tabs/attributes.php:34
+msgid "Attribute"
+msgstr "Атрибут"
+
+#: views/admin/tabs/actions.php:27
+msgid "Apply"
+msgstr "Применить"
+
+#: views/admin/tabs/actions.php:12
+msgid "Select bulk action"
+msgstr "Выберите массовое действие"
+
+#. #-#-#-#-#  premmerce-woocommerce-product-filter-code.pot (Premmerce
+#. WooCommerce Product Filter 3.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: views/admin/options.php:12
+msgid "Premmerce WooCommerce Product Filter"
+msgstr "Premmerce WooCommerce Product Filter"
+
+#: views/admin/filter-widget.php:11 views/admin/macros.php:98
+msgid "Title"
+msgstr "Название "
+
+#: src/Widget/FilterWidget.php:17
+msgid "Product attributes filter"
+msgstr "Фильтр товаров по атрибутах"
+
+#: src/Widget/FilterWidget.php:15
+msgid "Premmerce filter"
+msgstr "Premmerce фильтр"
+
+#: src/FilterPlugin.php:126
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr "Для работы плагина %s нужен плагин %s"
+
+#: src/Admin/Tabs/Attributes.php:89 src/Admin/Tabs/Taxonomy.php:69
+#: views/admin/tabs/attributes.php:80 views/admin/tabs/brands.php:45
+#: views/admin/tabs/taxonomy.php:44
+msgid "Hide"
+msgstr "Не отображать"
+
+#: src/Admin/Tabs/Attributes.php:88 src/Admin/Tabs/Taxonomy.php:68
+#: views/admin/tabs/attributes.php:80 views/admin/tabs/brands.php:45
+#: views/admin/tabs/taxonomy.php:44
+msgid "Display"
+msgstr "Отображать"
+
+#: src/Admin/Tabs/Attributes.php:104 src/Admin/Tabs/Taxonomy.php:67
+msgid "Bulk Actions"
+msgstr "Действия"
+
+#: src/Admin/Admin.php:156
+msgid "Account"
+msgstr "Аккаунт"
+
+#: src/Admin/Admin.php:166
+msgid "Contact Us"
+msgstr "Свяжитесь с нами"
+
+#: src/Admin/Tabs/Settings.php:91
+msgid "Settings"
+msgstr "Настройки"
+
+#: views/admin/macros.php:22 views/admin/tabs/brands.php:11
+msgid "Brands"
+msgstr "Бренды"
+
+#: src/Admin/Tabs/Attributes.php:56 views/admin/macros.php:19
+#: views/admin/tabs/attributes.php:17
+msgid "Attributes"
+msgstr "Атрибуты"

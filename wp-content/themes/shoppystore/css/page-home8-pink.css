@@ -1,0 +1,87 @@
+.row {
+  margin-left:  * -1;
+}
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: ;
+}
+.section-popular-index8 .category-ajax-slider .block-title {
+  display: none;
+}
+.section-popular-index8 .category-ajax-slider ul.nav-tabs {
+  border-bottom: 0;
+  overflow: inherit;
+}
+.section-popular-index8 .category-ajax-slider ul.nav-tabs .slick-list {
+  overflow: inherit;
+}
+.section-popular-index8 .category-ajax-slider ul.nav-tabs li {
+  position: relative;
+  overflow: inherit;
+  border: 0 !important;
+}
+.section-popular-index8 .category-ajax-slider ul.nav-tabs li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -1px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+.section-popular-index8 .category-ajax-slider ul.nav-tabs li > a {
+  position: relative;
+  z-index: 9;
+  display: inline-block;
+  max-width: 100%;
+}
+.section-popular-index8 .category-ajax-slider ul.nav-tabs li.active,
+.section-popular-index8 .category-ajax-slider ul.nav-tabs li:hover {
+  background: transparent;
+}
+.section-popular-index8 .category-ajax-slider ul.nav-tabs li.active:after,
+.section-popular-index8 .category-ajax-slider ul.nav-tabs li:hover:after {
+  content: "\f0d7";
+  position: absolute;
+  font-family: FontAwesome !important;
+  font-size: 18px;
+  bottom: -17px;
+  color: #e81d62;
+  left: 50%;
+  margin-left: -4px;
+}
+.section-popular-index8 .category-ajax-slider ul.nav-tabs li.active:before,
+.section-popular-index8 .category-ajax-slider ul.nav-tabs li:hover:before {
+  border-color: #e81d62;
+  z-index: 2;
+}
+.section-banner-cate-index8 .newsletter {
+  text-align: center;
+}
+.section-banner-cate-index8 .newsletter .sn-lettter {
+  padding: 39px 20px 40px;
+  background: #e81d62;
+}
+.section-banner-cate-index8 .newsletter .sn-lettter .block-title {
+  font-size: 18px;
+}
+.section-banner-cate-index8 .newsletter .sn-lettter .form-subscribe-header {
+  margin-bottom: 15px;
+}
+.section-banner-cate-index8 .newsletter .sn-lettter .mc4wp-form .newsletter {
+  border-radius: 3px;
+}
+.section-banner-cate-index8 .newsletter .sn-lettter .mc4wp-form .actions input {
+  background: url(../assets/img/pink/plane-2.png) no-repeat center center;
+}

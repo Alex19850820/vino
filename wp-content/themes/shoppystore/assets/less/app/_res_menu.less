@@ -1,0 +1,135 @@
+.resmenu-container{
+	.navbar-toggle{
+		display: none;
+	}
+	.menu-responsive-wrapper{
+		position: absolute;
+		top: 60px;
+		padding: 0;
+		min-width: 300px;
+		background: #444;		
+		ul{
+			.dropdown-resmenu{
+				display: none;
+				border-top: 1px solid #555;
+				> li{
+					> a{
+						padding-left: 25px;
+						.rtl & {
+						  padding-left:0;
+						  padding-right:25px;
+						}
+					}
+				}
+			}
+			> li{
+				position: relative;
+				> a{
+					color: #fff;
+					padding: 10px 20px;
+					display: block;
+				}
+				.show-dropdown{
+					display: block;
+					width: 39px;
+					height:39px;
+					position: absolute;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					background: #111;
+					cursor: pointer;
+					text-align: center;
+					line-height: 38px;
+					font-size: 20px;
+					.rtl &{
+						left:0;
+						right:auto;
+					}
+					&:after{
+						content: "+";
+						font-family: FontAwesome;
+					}
+					&.show{
+						&:after{
+							content: "–";
+						}
+					}
+					&:hover{
+						color: #fff;
+						background: @color;
+					}
+				}
+				+ li{
+					border-top: 1px solid #555;
+				}
+				&:hover, &.active{
+					> a{
+						background: #eee;
+						color: @color;
+					}
+					> .show-dropdown{
+						background: @color;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+	&.resmenu-container-sidebar{
+		.menu-responsive-wrapper{
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			width: 0;
+			.translate(-300px, 0);
+			z-index: 9999;
+			.transition(all 0.3s ease-out);
+			.rtl & {
+			     left:auto;
+				 right:0;
+			}
+			&.open{
+				.translate(0, 0);
+			}
+			.menu-responsive-inner{
+				background: #444;
+				position: relative;
+				height: 100%;
+				overflow-x: auto;
+				h3{
+					text-transform: uppercase;
+					padding: 40px 0;
+					text-align: center;
+					background: #111;
+					color: #eee;
+					margin-bottom: 0;
+					border-bottom: 1px solid #666;
+				}
+				> ul{
+					border-bottom: 1px solid #555;
+				}
+				.menu-close{
+					position: absolute;
+					top: 10px;
+					right: 20px;
+					color: #fff;
+					font-size: 20px;
+					cursor: pointer;
+					.rtl & {
+					    right:auto;
+						left:20px;
+					}
+					&:after{
+						content: "\f00d";
+						font-family: FontAwesome;
+					}
+					&:hover{
+						color: @color;
+					}
+				}
+			}
+		}
+	}
+}

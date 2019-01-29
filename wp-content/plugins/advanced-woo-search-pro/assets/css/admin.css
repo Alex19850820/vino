@@ -1,0 +1,446 @@
+.sortable-container {
+    width: 200px;
+    padding: 0;
+    float: left;
+    margin-right: 10px;
+}
+
+.sortable-title {
+    padding: 8px 0;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.sti-sortable {
+    border: 1px solid #C7C4C4;
+    background: #fff7f7;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    margin-right: 10px;
+    min-height: 180px;
+}
+
+.sti-sortable.enabled {
+    background: #ddf0dc;
+}
+
+.sti-sortable li.sti-btn,
+.sti-sortable li.highlight,
+.sti-sortable li#excerpt {
+    display: inline-block;
+    /*float: left;*/
+    width: 100%;
+    height: auto;
+    margin: 0 3px 3px 0;
+    cursor: pointer;
+    background: #F1F1F1;
+    border: 1px solid #C7C4C4;
+    text-align: center;
+    padding: 8px 0;
+    text-transform: capitalize;
+}
+
+.sti-sortable li.highlight {
+    background: #fff;
+    width: 100%;
+    height: 36px;
+    padding: 0;
+    border: 1px dotted #ccc;
+}
+
+
+.image-preview {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+    height: 23px !important;
+}
+
+
+/* Table */
+.aws-table {
+    margin: 20px 0 10px;
+}
+
+.aws-table tr:nth-child(odd) td {
+    background: #f9f9f9;
+}
+
+.aws-table .aws-name {
+    font-weight: 700;
+}
+
+.aws-table th {
+    padding: 9px 7px!important;
+    vertical-align: middle;
+}
+
+.aws-table td {
+    vertical-align: middle;
+    padding: 7px;
+    line-height: 2em;
+}
+
+.aws-table .aws-actions a {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    padding: 0!important;
+    height: 2em!important;
+    width: 2em;
+    margin-left: 10px;
+}
+
+.aws-table .aws-actions a:after {
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Dashicons;
+    line-height: 1.85;
+}
+
+.aws-table .aws-actions a.edit:after {
+    content: "";
+}
+
+.aws-table .aws-actions a.delete:after {
+    content: "";
+}
+
+.aws-table .aws-actions a.delete:hover:after {
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.aws-table .aws-actions a.copy:after {
+    content: "";
+}
+
+.aws-insert-instance {
+    margin: 20px 0;
+
+}
+
+.aws-table.aws-table-sources {
+    margin: 10px 0 0;
+    width: 500px;
+}
+
+.aws-table.aws-table-sources th.aws-active {
+    width: 30px;
+}
+
+.aws-table.aws-table-sources td.aws-active .aws-yes,
+.aws-table.aws-table-sources td.aws-active .aws-no{
+    background-color: #26CC06;
+    padding: 1px 7px;
+    color: #fff;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+}
+
+.aws-table.aws-table-sources td.aws-active .aws-no {
+    background-color: #CC0606;
+}
+
+.aws-table.aws-table-sources td.aws-active .aws-yes,
+.aws-table.aws-table-sources td.aws-active.active .aws-no {
+    display: none;
+}
+
+.aws-table.aws-table-sources td.aws-active.active .aws-yes {
+    display: inline;
+}
+
+.aws-table.aws-table-sources td.aws-active:after {
+    content: "";
+    display: none;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    background: url('../img/loader-2.gif') no-repeat 50% 50%;
+}
+
+.aws-table.aws-table-sources td.aws-active.loading .aws-yes,
+.aws-table.aws-table-sources td.aws-active.loading .aws-no {
+    display: none;
+}
+
+.aws-table.aws-table-sources td.aws-active.loading:after {
+    display: block;
+}
+
+.aws-table.aws-table-sources td.aws-name {
+    font-weight: 400;
+}
+
+
+/* Settings page */
+h1.aws-instance-name {
+    position: relative;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+h1.aws-instance-name:after {
+    display: none;
+
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 17px;
+    right: -1px;
+    text-align: center;
+    font-family: Dashicons;
+    content: '';
+    line-height: 1;
+    font-size: 18px;
+    color: #9C9C9C;
+}
+
+h1.aws-instance-name:hover:after {
+    display: block;
+}
+
+h2.aws-instance-filter {
+    position: relative;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 8px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+
+}
+h2.aws-instance-filter:before {
+    content: '->';
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    line-height: 1;
+    margin-right: 22px;
+    position: relative;
+    top: -2px;
+}
+
+.aws-instance-shortcode {
+    display: inline-block;
+    background: #fff;
+    padding: 4px;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    top: -4px;
+}
+
+.aws-back {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    padding: 0!important;
+    height: 24px!important;
+    width: 24px;
+    margin-right: 40px!important;
+    margin-top: 11px!important;
+}
+
+.aws-back:after {
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Dashicons;
+    line-height: 24px;
+    content: '';
+}
+
+.aws-back-to-filters {
+    display: block;
+    position: relative;
+    padding: 0 8px!important;
+    height: 28px!important;
+    margin-right: 40px!important;
+    margin-top: 21px!important;
+}
+.aws-back-to-filters:before {
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    padding-right: 8px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    text-align: center;
+    font-family: Dashicons;
+    line-height: 24px;
+    content: "\f474";
+    position: relative;
+    top: 3px;
+}
+
+
+#aws_form .img-select {
+    position: relative;
+    font-size: 0;
+    list-style: none;
+    max-width: 400px;
+}
+
+#aws_form .img-select .option {
+    display: block;
+    position: relative;
+    vertical-align: top;
+    height: 36px;
+    width: 400px;
+    margin: 0 0 16px;
+}
+
+#aws_form .img-select .option input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+}
+#aws_form .img-select .option input:before,
+#aws_form .img-select .option input:checked:before{
+    display: none;
+}
+
+#aws_form .img-select .option .ico {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: contain !important;
+    border:2px solid transparent;
+    border-radius: 5px;
+}
+
+#aws_form .img-select .option input:checked + .ico {
+    border-color: rgba(0,0,0,0.6);
+}
+
+/* Filters tabs */
+.aws-form-filters {
+    width: 570px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.aws-form-filters .aws-filter-item {
+    width: 100%;
+}
+
+.aws-form-filters .aws-filter-item.ui-sortable-helper {
+    background: #f9f9f9;
+}
+
+.aws-form-filters .aws-sort {
+    width: 30px;
+}
+.aws-form-filters .aws-name {
+    width: 400px;
+}
+.aws-form-filters .aws-actions {
+    width: 140px;
+}
+
+.aws-form-filters td.aws-sort {
+    padding: 0 7px;
+    cursor: move;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.aws-form-filters td.aws-sort:before {
+    content: '';
+    font-family: Dashicons;
+    color: #ccc;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.aws-form-filters .aws-name a.active {
+    color: #000;
+}
+
+.aws-insert-filter-box {
+    margin: 0 0 26px;
+}
+
+
+/* Reindex button */
+#aws-reindex {
+    display: inline-block;
+}
+
+#aws-reindex .loader {
+    display: none;
+    width: 20px;
+    height: 20px;
+    background: url('../img/loader-1.GIF') no-repeat 50% 50%;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+
+#aws-reindex .reindex-progress {
+    display: none;
+    margin-left: 15px;
+    position: relative;
+    top: -5px;
+    font-size: 13px;
+    font-weight: bold;
+ }
+
+#aws-reindex.loading .loader,
+#aws-reindex.loading .reindex-progress{
+    display: inline-block;
+}

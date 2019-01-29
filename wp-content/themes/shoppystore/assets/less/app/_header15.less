@@ -1,0 +1,181 @@
+.header-style15 {
+
+    .yt-header-top {
+        height: initial;
+        background: rgba(06,05,07,0.7);
+        border-bottom: none;
+        position: relative;
+        top:0;
+        width: 100%;
+        .page-template-page-home15-php &{
+          position: absolute;
+        }
+        .logo-wrapper {
+           padding-top: 15px;
+           padding-bottom: 20px;
+        }
+        .yt-header-topv2 {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            height: 34px;
+            border-left: 1px solid rgba(255, 255, 255, 0.1);
+            .rtl & {
+              border-left: 0;
+              border-right: 1px solid rgba(255, 255, 255, 0.1);
+            }
+        }
+        .offer-wrapper {
+          line-height: 34px;
+          max-height: 34px;
+            ul li  {
+              color:rgba(255, 255, 255, 0.5);
+              padding-left: 25px;
+              .rtl & {
+                padding-left: 0;
+                padding-right: 25px;
+              }
+             a {
+               color:rgba(255, 255, 255, 0.5);
+               &:hover {
+                 color:rgba(255, 255, 255, 1);
+               }
+             }
+                .sp-ic {
+                  color:rgba(255, 255, 255, 0.5);
+                }
+          }
+
+        }
+        .block-action-header{
+          > ul > li > a,&.login-link .top-login .div-logined a,form >ul > li > a,.top-login > ul > li > a {
+              padding : 7px 15px;
+              color:rgba(255, 255, 255, 0.5);
+              font-size: 12px;
+             font-weight: 400;
+             &:before {
+                 color:rgba(255, 255, 255, 0.1);
+            }
+          }
+          &.language-switcher div > ul.nav > li > a {
+             padding: 7px 0px 7px 15px;
+             color:rgba(255, 255, 255, 0.5);
+             font-size: 12px;
+             font-weight: 400;
+             &:before {
+                 color:rgba(255, 255, 255, 0.1);
+             }
+          }
+
+        }
+        .yt-header-middle {
+            padding: 0;
+            border-left: 1px solid rgba(255, 255, 255, 0.1);
+            .rtl & {
+              border-left: 0;
+              border-right: 1px solid rgba(255, 255, 255, 0.1);
+            }
+            .yt-megamenu {
+                margin: 0;
+            }
+            .yt-header-under {
+              padding-top:10px;
+              padding-bottom: 3px;
+              padding-left: 30px;
+              .rtl & {
+                padding-left: 0;
+                padding-right: 30px;
+              }
+              .yt-menu .navbar-inverse > ul > li > a.dropdown-toggle:before {
+                 display: none;
+              }
+              .yt-menu .navbar-inverse > ul > li > a span.menu-title {
+                 font-size: 13px;
+                 font-weight: bold;
+                 color : rgba(255, 255, 255, 0.8);
+              }
+               .yt-menu .navbar-inverse > ul > li {
+                    &:hover,&.active {
+                       > a span.menu-title {
+                          color:@color;
+                       }
+                       
+                    }
+               }
+
+            }
+        }
+    }
+    .widget {
+      display: none;
+    }
+    .yt-searchpro {
+       display: inline-block;
+       float:right;
+       position: relative;
+    }
+    .phone-icon-search {
+      display: block !important;
+      cursor: pointer;
+      margin-top: 7px;
+      margin-right: 12px;
+      &:hover {
+        .fa {
+          color:@color;
+        }
+      }
+      .fa {
+        font-size: 16px;
+        color : rgba(255, 255, 255, 0.8);
+      }
+    }
+    .sm-serachbox-pro {
+      display: none;
+      min-width: 370px;
+      z-index: 999;
+      right: 0px;
+      top: auto;
+      position: absolute;
+      background: #fff;
+      padding: 10px;
+      box-shadow: 0 0 2px #ddd;
+      .form-search {
+          width: 100%;
+          .input-search input {
+             padding-left: 10px;
+          }
+      }
+    }
+    .yt-header-under .mini-cart-header {
+      margin-top: 6px;
+         .top-form-minicart {
+              background: transparent;
+              padding: 0;
+              border:0;
+              .top-minicart {
+                  border:0;
+                  &:after {
+                      background: none;
+                      position: absolute;
+                      top: -1px;
+                      left:12px;
+                      content: "\f291";
+                      font-family: FontAwesome !important;
+                      font-size: 16px;
+                      color: rgba(255, 255, 255, 0.8);
+                  }
+                  a.cart-contents {
+                    color: rgba(255, 255, 255, 0.8);
+                    text-transform: capitalize;
+                    .gach,.total-cart {
+                      display: none;
+                    }
+                  }
+              }
+         }
+    }
+    .my-account-link {
+        display: none;
+        &.my-account-link-other {
+          display: block;
+        }
+    }
+}

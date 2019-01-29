@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+wp-config.php
+wp-config-sample.php
+wp-content/uploads/
+wp-content/themes/twentysixteen
+

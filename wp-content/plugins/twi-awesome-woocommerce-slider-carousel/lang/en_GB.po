@@ -1,0 +1,1865 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TWI Logo Carousel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-30 16:06+0600\n"
+"PO-Revision-Date: 2016-09-30 16:06+0600\n"
+"Last-Translator: \n"
+"Language-Team: TWI Team <khairulalamruet@gmail.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/custom_data.php:690
+msgid "Responsive Grid"
+msgstr ""
+
+#: ../admin/custom_data.php:691
+msgid "Masonry Grid (Pinterest Style)"
+msgstr ""
+
+#: ../admin/custom_data.php:693
+msgid "Slider/Carousel"
+msgstr ""
+
+#: ../admin/custom_data.php:694
+msgid "Slide Set"
+msgstr ""
+
+#: ../admin/custom_data.php:701 ../admin/custom_data.php:849
+msgid "Normal"
+msgstr ""
+
+#: ../admin/custom_data.php:702 ../admin/metabox/twi-woo-mb.php:942
+msgid "Medium"
+msgstr ""
+
+#: ../admin/custom_data.php:703 ../admin/metabox/twi-woo-mb.php:953
+msgid "Small"
+msgstr ""
+
+#: ../admin/custom_data.php:704
+msgid "Collapse"
+msgstr ""
+
+#: ../admin/custom_data.php:711 ../admin/custom_data.php:968
+msgid "1"
+msgstr ""
+
+#: ../admin/custom_data.php:712 ../admin/custom_data.php:969
+msgid "2"
+msgstr ""
+
+#: ../admin/custom_data.php:713 ../admin/custom_data.php:970
+msgid "3"
+msgstr ""
+
+#: ../admin/custom_data.php:714 ../admin/custom_data.php:971
+#: ../template/query/sorter.php:72
+msgid "4"
+msgstr ""
+
+#: ../admin/custom_data.php:715 ../admin/custom_data.php:972
+msgid "5"
+msgstr ""
+
+#: ../admin/custom_data.php:716
+msgid "6"
+msgstr ""
+
+#: ../admin/custom_data.php:717
+msgid "10"
+msgstr ""
+
+#: ../admin/custom_data.php:724 ../admin/custom_data.php:748
+msgid "Left"
+msgstr ""
+
+#: ../admin/custom_data.php:725 ../admin/custom_data.php:750
+msgid "Right"
+msgstr ""
+
+#: ../admin/custom_data.php:732 ../admin/custom_data.php:740
+msgid "Yes"
+msgstr ""
+
+#: ../admin/custom_data.php:733 ../admin/custom_data.php:741
+msgid "No"
+msgstr ""
+
+#: ../admin/custom_data.php:749
+msgid "Center"
+msgstr ""
+
+#: ../admin/custom_data.php:757
+msgid "Bottom Center"
+msgstr ""
+
+#: ../admin/custom_data.php:758
+msgid "Bottom Left"
+msgstr ""
+
+#: ../admin/custom_data.php:759
+msgid "Bottom Right"
+msgstr ""
+
+#: ../admin/custom_data.php:760
+msgid "Top Center"
+msgstr ""
+
+#: ../admin/custom_data.php:761
+msgid "Top Left"
+msgstr ""
+
+#: ../admin/custom_data.php:762
+msgid "Top Right"
+msgstr ""
+
+#: ../admin/custom_data.php:769
+msgid "Title"
+msgstr ""
+
+#: ../admin/custom_data.php:770
+msgid "ID"
+msgstr ""
+
+#: ../admin/custom_data.php:771
+msgid "Price"
+msgstr ""
+
+#: ../admin/custom_data.php:772
+msgid "SKU"
+msgstr ""
+
+#: ../admin/custom_data.php:773
+msgid "Date"
+msgstr ""
+
+#: ../admin/custom_data.php:774
+msgid "Random"
+msgstr ""
+
+#: ../admin/custom_data.php:775 ../template/rib/rib.php:13
+msgid "Featured"
+msgstr ""
+
+#: ../admin/custom_data.php:776
+msgid "Products on sale"
+msgstr ""
+
+#: ../admin/custom_data.php:777
+msgid "Latest/Recent products"
+msgstr ""
+
+#: ../admin/custom_data.php:778
+msgid "Best Sellers"
+msgstr ""
+
+#: ../admin/custom_data.php:785
+msgid "Category/Categories Wise"
+msgstr ""
+
+#: ../admin/custom_data.php:786
+msgid "Specific Products"
+msgstr ""
+
+#: ../admin/custom_data.php:787
+msgid "Category Showcase"
+msgstr ""
+
+#: ../admin/custom_data.php:794
+msgid "Categories"
+msgstr ""
+
+#: ../admin/custom_data.php:795
+msgid "Sub-category"
+msgstr ""
+
+#: ../admin/custom_data.php:802
+msgid "Ascending"
+msgstr ""
+
+#: ../admin/custom_data.php:803
+msgid "Descending"
+msgstr ""
+
+#: ../admin/custom_data.php:810
+msgid "Normal Style"
+msgstr ""
+
+#: ../admin/custom_data.php:811
+msgid "Woocommerce Style (Not Suitable for all themes)"
+msgstr ""
+
+#: ../admin/custom_data.php:812
+msgid "Hover Effects"
+msgstr ""
+
+#: ../admin/custom_data.php:813
+msgid "Hover Effects 2"
+msgstr ""
+
+#: ../admin/custom_data.php:814
+msgid "Overlay"
+msgstr ""
+
+#: ../admin/custom_data.php:816
+msgid "Only Image"
+msgstr ""
+
+#: ../admin/custom_data.php:823
+msgid "Uppercase"
+msgstr ""
+
+#: ../admin/custom_data.php:824
+msgid "Lowercase"
+msgstr ""
+
+#: ../admin/custom_data.php:825
+msgid "Inherit"
+msgstr ""
+
+#: ../admin/custom_data.php:826
+msgid "Capitalize"
+msgstr ""
+
+#: ../admin/custom_data.php:833 ../admin/custom_data.php:850
+#: ../admin/custom_data.php:945
+msgid "Fade"
+msgstr ""
+
+#: ../admin/custom_data.php:834
+msgid "Bottom To Top"
+msgstr ""
+
+#: ../admin/custom_data.php:835
+msgid "Top to Bottom"
+msgstr ""
+
+#: ../admin/custom_data.php:836
+msgid "Left to Right"
+msgstr ""
+
+#: ../admin/custom_data.php:837
+msgid "Right to Left"
+msgstr ""
+
+#: ../admin/custom_data.php:838
+msgid "Open Down"
+msgstr ""
+
+#: ../admin/custom_data.php:839
+msgid "Open Left"
+msgstr ""
+
+#: ../admin/custom_data.php:840
+msgid "Open Right"
+msgstr ""
+
+#: ../admin/custom_data.php:841
+msgid "Come Right"
+msgstr ""
+
+#: ../admin/custom_data.php:842
+msgid "Come Left"
+msgstr ""
+
+#: ../admin/custom_data.php:851 ../admin/custom_data.php:946
+msgid "Scale"
+msgstr ""
+
+#: ../admin/custom_data.php:852
+msgid "Spin"
+msgstr ""
+
+#: ../admin/custom_data.php:853
+msgid "Grayscale (Before Hover)"
+msgstr ""
+
+#: ../admin/custom_data.php:854
+msgid "Grayscale (After Hover)"
+msgstr ""
+
+#: ../admin/custom_data.php:861
+msgid "No animation"
+msgstr ""
+
+#: ../admin/custom_data.php:862
+msgid "Bounce"
+msgstr ""
+
+#: ../admin/custom_data.php:863
+msgid "Flash"
+msgstr ""
+
+#: ../admin/custom_data.php:864
+msgid "Pulse"
+msgstr ""
+
+#: ../admin/custom_data.php:865
+msgid "Rubber Band"
+msgstr ""
+
+#: ../admin/custom_data.php:866
+msgid "Shake"
+msgstr ""
+
+#: ../admin/custom_data.php:867
+msgid "Swing"
+msgstr ""
+
+#: ../admin/custom_data.php:868
+msgid "Tada"
+msgstr ""
+
+#: ../admin/custom_data.php:869
+msgid "Wobble"
+msgstr ""
+
+#: ../admin/custom_data.php:870
+msgid "Bounce In"
+msgstr ""
+
+#: ../admin/custom_data.php:871
+msgid "Bounce In Down"
+msgstr ""
+
+#: ../admin/custom_data.php:872
+msgid "Bounce In Left"
+msgstr ""
+
+#: ../admin/custom_data.php:873
+msgid "Bounce In Right"
+msgstr ""
+
+#: ../admin/custom_data.php:874
+msgid "Bounce In Up"
+msgstr ""
+
+#: ../admin/custom_data.php:875
+msgid "Fade In"
+msgstr ""
+
+#: ../admin/custom_data.php:876
+msgid "Fade In Down"
+msgstr ""
+
+#: ../admin/custom_data.php:877
+msgid "Fade In Down Big"
+msgstr ""
+
+#: ../admin/custom_data.php:878
+msgid "Fade In Left"
+msgstr ""
+
+#: ../admin/custom_data.php:879
+msgid "Fade In Left Big"
+msgstr ""
+
+#: ../admin/custom_data.php:880
+msgid "Fade In Right"
+msgstr ""
+
+#: ../admin/custom_data.php:881
+msgid "Fade In Right Big"
+msgstr ""
+
+#: ../admin/custom_data.php:882
+msgid "Fade In Up"
+msgstr ""
+
+#: ../admin/custom_data.php:883
+msgid "Fade In Up Big"
+msgstr ""
+
+#: ../admin/custom_data.php:884
+msgid "Flip"
+msgstr ""
+
+#: ../admin/custom_data.php:885
+msgid "Flip In X"
+msgstr ""
+
+#: ../admin/custom_data.php:886
+msgid "Flip In Y"
+msgstr ""
+
+#: ../admin/custom_data.php:887
+msgid "Light Speed In"
+msgstr ""
+
+#: ../admin/custom_data.php:888
+msgid "Rotate In"
+msgstr ""
+
+#: ../admin/custom_data.php:889
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: ../admin/custom_data.php:890
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: ../admin/custom_data.php:891
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: ../admin/custom_data.php:892
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: ../admin/custom_data.php:893
+msgid "Slide In Down"
+msgstr ""
+
+#: ../admin/custom_data.php:894
+msgid "Slide In Left"
+msgstr ""
+
+#: ../admin/custom_data.php:895
+msgid "Slide In Right"
+msgstr ""
+
+#: ../admin/custom_data.php:896
+msgid "Hinge"
+msgstr ""
+
+#: ../admin/custom_data.php:897
+msgid "Roll In"
+msgstr ""
+
+#: ../admin/custom_data.php:947
+msgid "Slide Horizontal"
+msgstr ""
+
+#: ../admin/custom_data.php:948
+msgid "Slide Vertical"
+msgstr ""
+
+#: ../admin/custom_data.php:949
+msgid "Slide Top"
+msgstr ""
+
+#: ../admin/custom_data.php:950
+msgid "Slide Bottom"
+msgstr ""
+
+#: ../admin/custom_data.php:957
+msgid "Normal Pagination"
+msgstr ""
+
+#: ../admin/custom_data.php:959
+msgid "AJAX Pagination"
+msgstr ""
+
+#: ../admin/custom_data.php:960
+msgid "Click Load More"
+msgstr ""
+
+#: ../admin/custom_data.php:961
+msgid "Scroll Load More"
+msgstr ""
+
+#: ../admin/custom_data.php:1017
+msgid "Custom Size"
+msgstr ""
+
+#: ../admin/custom_data.php:1018
+msgid "Shop Catalog (Woocommmerce)"
+msgstr ""
+
+#: ../admin/custom_data.php:1019
+msgid "Shop Single (Woocommmerce)"
+msgstr ""
+
+#: ../admin/custom_data.php:1020
+msgid "Shop Thumbnail (Woocommmerce)"
+msgstr ""
+
+#: ../admin/custom_data.php:1056 ../admin/custom_data.php:1085
+msgid "Effect 1"
+msgstr ""
+
+#: ../admin/custom_data.php:1057 ../admin/custom_data.php:1086
+msgid "Effect 2"
+msgstr ""
+
+#: ../admin/custom_data.php:1058 ../admin/custom_data.php:1087
+msgid "Effect 3"
+msgstr ""
+
+#: ../admin/custom_data.php:1059 ../admin/custom_data.php:1088
+msgid "Effect 4"
+msgstr ""
+
+#: ../admin/custom_data.php:1060 ../admin/custom_data.php:1089
+msgid "Effect 5"
+msgstr ""
+
+#: ../admin/custom_data.php:1061 ../admin/custom_data.php:1090
+msgid "Effect 6"
+msgstr ""
+
+#: ../admin/custom_data.php:1062 ../admin/custom_data.php:1091
+msgid "Effect 7"
+msgstr ""
+
+#: ../admin/custom_data.php:1063
+msgid "Effect 8"
+msgstr ""
+
+#: ../admin/custom_data.php:1064
+msgid "Effect 9"
+msgstr ""
+
+#: ../admin/custom_data.php:1065
+msgid "Effect 10"
+msgstr ""
+
+#: ../admin/custom_data.php:1066
+msgid "Effect 11"
+msgstr ""
+
+#: ../admin/custom_data.php:1067
+msgid "Effect 12"
+msgstr ""
+
+#: ../admin/custom_data.php:1068
+msgid "Effect 13"
+msgstr ""
+
+#: ../admin/custom_data.php:1069
+msgid "Effect 14"
+msgstr ""
+
+#: ../admin/custom_data.php:1070
+msgid "Effect 15"
+msgstr ""
+
+#: ../admin/custom_data.php:1071
+msgid "Effect 16"
+msgstr ""
+
+#: ../admin/custom_data.php:1072
+msgid "Effect 17"
+msgstr ""
+
+#: ../admin/custom_data.php:1073
+msgid "Effect 18"
+msgstr ""
+
+#: ../admin/custom_data.php:1074
+msgid "Effect 19"
+msgstr ""
+
+#: ../admin/custom_data.php:1075
+msgid "Effect 20"
+msgstr ""
+
+#: ../admin/custom_data.php:1076
+msgid "Effect 21"
+msgstr ""
+
+#: ../admin/custom_data.php:1077
+msgid "Effect 22"
+msgstr ""
+
+#: ../admin/custom_data.php:1092
+msgid "Effect 8 (Grayscale)"
+msgstr ""
+
+#: ../admin/custom_data.php:1093
+msgid "Effect 9 (Grayscale - Hover)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:5
+msgid "Woocommerce Grid/Slider/Carousel"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:12
+msgid "Product Display"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:31
+msgid "Showcase Type"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:50
+msgid "Select Category"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:68
+msgid ""
+"Select Categories,if you want to show all categories,plase leave it blank."
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:86
+msgid "Select Specific Products (Dragable)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:100
+msgid "Show per page"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:109
+msgid "Your Style"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:128
+msgid "Row Count"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:147
+msgid "Items Between Gap"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:161 ../admin/option/option.php:113
+#: ../admin/option/option.php:267 ../admin/option/option.php:433
+msgid "Gap Between Grids (px)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:174 ../admin/option/option.php:112
+#: ../admin/option/option.php:266 ../admin/option/option.php:432
+msgid "Gap Between Grids"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:191
+msgid "Grid Settings"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:200 ../admin/metabox/twi-woo-mb.php:617
+#: ../admin/metabox/twi-woo-mb.php:920
+msgid "Large Desktops"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:201 ../admin/metabox/twi-woo-mb.php:618
+#: ../admin/metabox/twi-woo-mb.php:921
+msgid "Xlarge (1200px and larger)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:216 ../admin/metabox/twi-woo-mb.php:627
+#: ../admin/metabox/twi-woo-mb.php:930
+msgid "Desktops & tablets landscape"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:217 ../admin/metabox/twi-woo-mb.php:628
+msgid "Large (960px to 1199px)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:233 ../admin/metabox/twi-woo-mb.php:638
+msgid "Tablets portrait"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:234 ../admin/metabox/twi-woo-mb.php:639
+msgid "Medium (768px to 959px)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:249 ../admin/metabox/twi-woo-mb.php:649
+msgid "Phones landscape"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:250 ../admin/metabox/twi-woo-mb.php:650
+msgid "Small (480px to 767px)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:265 ../admin/metabox/twi-woo-mb.php:660
+msgid "Phones portrait"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:266 ../admin/metabox/twi-woo-mb.php:661
+msgid "Mini (up to 479px)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:281 ../admin/metabox/twi-woo-mb.php:822
+#: ../admin/metabox/twi-woo-mb.php:1033 ../admin/option/option.php:82
+#: ../admin/option/option.php:251 ../admin/option/option.php:404
+msgid "Pagination"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:300
+msgid "Pagination Type"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:321
+msgid "Pagination Style"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:334
+msgid "Pagination Position"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:348 ../admin/metabox/twi-woo-mb.php:1473
+#: ../admin/metabox/twi-woo-mb.php:2047 ../admin/metabox/twi-woo-mb.php:2520
+#: ../admin/metabox/twi-woo-mb.php:2934
+msgid "Text Color"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:354
+msgid "Background Color"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:360 ../admin/metabox/twi-woo-mb.php:559
+#: ../admin/metabox/twi-woo-mb.php:758 ../admin/metabox/twi-woo-mb.php:862
+#: ../admin/metabox/twi-woo-mb.php:1371 ../admin/metabox/twi-woo-mb.php:1725
+#: ../admin/metabox/twi-woo-mb.php:1916 ../admin/metabox/twi-woo-mb.php:2389
+#: ../admin/metabox/twi-woo-mb.php:2833
+msgid "Border Color"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:366 ../admin/metabox/twi-woo-mb.php:549
+#: ../admin/metabox/twi-woo-mb.php:764 ../admin/metabox/twi-woo-mb.php:868
+msgid "Border Width"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:375
+msgid "Text Color(Hover/Active)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:381
+msgid "Background Color(Hover/Active)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:387
+msgid "Border Color(Hover/Active)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:393
+msgid "Border Width(Hover/Active)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:402 ../admin/metabox/twi-woo-mb.php:773
+#: ../admin/metabox/twi-woo-mb.php:877 ../admin/metabox/twi-woo-mb.php:1906
+#: ../admin/metabox/twi-woo-mb.php:2379 ../admin/metabox/twi-woo-mb.php:2823
+msgid "Border Radius(%)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:411
+msgid "Padding"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:426
+msgid "Load More/Infinite Load"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:436
+msgid "Load Text"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:443
+msgid "Done Text"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:450
+msgid "Upload Loader Animated Image"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:462
+msgid "Load More Live Preview"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:481 ../admin/metabox/twi-woo-mb.php:1290
+#: ../admin/metabox/twi-woo-mb.php:1664 ../admin/metabox/twi-woo-mb.php:1808
+#: ../admin/metabox/twi-woo-mb.php:2287 ../admin/metabox/twi-woo-mb.php:2761
+msgid "Font Face"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:482 ../admin/metabox/twi-woo-mb.php:1291
+#: ../admin/metabox/twi-woo-mb.php:1665 ../admin/metabox/twi-woo-mb.php:1809
+#: ../admin/metabox/twi-woo-mb.php:2288 ../admin/metabox/twi-woo-mb.php:2762
+msgid "<b>Default:</b> Roboto"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:499 ../admin/metabox/twi-woo-mb.php:1308
+#: ../admin/metabox/twi-woo-mb.php:1682 ../admin/metabox/twi-woo-mb.php:1826
+#: ../admin/metabox/twi-woo-mb.php:2305 ../admin/metabox/twi-woo-mb.php:2779
+msgid "Font Style"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:517 ../admin/metabox/twi-woo-mb.php:1325
+#: ../admin/metabox/twi-woo-mb.php:1699 ../admin/metabox/twi-woo-mb.php:1843
+#: ../admin/metabox/twi-woo-mb.php:2322 ../admin/metabox/twi-woo-mb.php:2796
+msgid "Font Weight"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:535
+msgid "Button Background"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:542
+msgid "Button Background (Hover)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:566
+msgid "Border Color (Hover)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:573 ../admin/metabox/twi-woo-mb.php:1362
+#: ../admin/metabox/twi-woo-mb.php:1716
+msgid "Border Radius"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:583
+msgid "Font Color"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:590
+msgid "Font Color (Hover)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:608
+msgid "Slider/Carousel Settings"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:671 ../admin/metabox/twi-woo-mb.php:963
+#: ../admin/option/option.php:45 ../admin/option/option.php:214
+#: ../admin/option/option.php:367
+msgid "Autoplay"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:686 ../admin/metabox/twi-woo-mb.php:978
+msgid "Autoplay Timeout (Sec)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:696
+msgid "Autoplay Hover Pause"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:711 ../admin/metabox/twi-woo-mb.php:1018
+#: ../admin/option/option.php:68 ../admin/option/option.php:237
+#: ../admin/option/option.php:390
+msgid "Navigation"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:728
+msgid "Navigation Settings"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:746 ../admin/metabox/twi-woo-mb.php:856
+#: ../admin/metabox/twi-woo-mb.php:1342 ../admin/metabox/twi-woo-mb.php:1898
+#: ../admin/metabox/twi-woo-mb.php:2371 ../admin/metabox/twi-woo-mb.php:2815
+msgid "Background"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:752
+msgid "Arrow Color"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:785 ../admin/metabox/twi-woo-mb.php:887
+msgid "Background(Hover)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:791
+msgid "Arrow Color(Hover)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:797 ../admin/metabox/twi-woo-mb.php:893
+msgid "Border Color(Hover)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:804
+msgid "Nav Position"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:839
+msgid "Pagination Settings"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:910
+msgid "Slide Set Settings"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:931
+msgid "Large"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:941
+msgid "Tablets"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:952
+msgid "Phone"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:988
+msgid "Hover Pause"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1003
+msgid "Animation"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1048
+msgid "Forced Center (Items)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1070
+msgid "Justified Grid Margin"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1080
+msgid "Product Orderby"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1095
+msgid "Product Order"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1110
+msgid "Title Display for products/category"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1125
+msgid "Short Description Display for products/category"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1140
+msgid "Price/Category item count Display"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1155
+msgid "Cart Show"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1170
+msgid "Rating Show"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1185
+msgid "Forced Full Screen"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1200
+msgid "Preloader"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1217
+msgid "Ribbon/Label Settings"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1222
+msgid "Ribbon/Label Display"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1237
+msgid "Featured Label Position"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1255
+msgid "Template Styles With Live Preview"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1273
+msgid "Normal Style Preview"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1348
+msgid "Content Position"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1377 ../admin/metabox/twi-woo-mb.php:1731
+#: ../admin/metabox/twi-woo-mb.php:1922 ../admin/metabox/twi-woo-mb.php:2395
+#: ../admin/metabox/twi-woo-mb.php:2839
+msgid "Border Thickness"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1387 ../admin/metabox/twi-woo-mb.php:1932
+#: ../admin/metabox/twi-woo-mb.php:2405 ../admin/metabox/twi-woo-mb.php:2849
+msgid "<h3>Product/Category Title Setting</h3>"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1394 ../admin/metabox/twi-woo-mb.php:1939
+#: ../admin/metabox/twi-woo-mb.php:2412 ../admin/metabox/twi-woo-mb.php:2856
+msgid "Title Color"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1400 ../admin/metabox/twi-woo-mb.php:1945
+#: ../admin/metabox/twi-woo-mb.php:2418 ../admin/metabox/twi-woo-mb.php:2862
+msgid "Title Color (Hover)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1406 ../admin/metabox/twi-woo-mb.php:1951
+#: ../admin/metabox/twi-woo-mb.php:2424 ../admin/metabox/twi-woo-mb.php:2868
+msgid "Title Font Size"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1415 ../admin/metabox/twi-woo-mb.php:1522
+#: ../admin/metabox/twi-woo-mb.php:1960 ../admin/metabox/twi-woo-mb.php:2127
+#: ../admin/metabox/twi-woo-mb.php:2433 ../admin/metabox/twi-woo-mb.php:2600
+#: ../admin/metabox/twi-woo-mb.php:2877 ../admin/metabox/twi-woo-mb.php:2984
+msgid "Title Text Style"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1431 ../admin/metabox/twi-woo-mb.php:1991
+#: ../admin/metabox/twi-woo-mb.php:2464 ../admin/metabox/twi-woo-mb.php:2893
+msgid "<h3>Product/Category Description Setting</h3>"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1438 ../admin/metabox/twi-woo-mb.php:1998
+#: ../admin/metabox/twi-woo-mb.php:2471 ../admin/metabox/twi-woo-mb.php:2900
+msgid "Description Color"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1445 ../admin/metabox/twi-woo-mb.php:2004
+#: ../admin/metabox/twi-woo-mb.php:2477 ../admin/metabox/twi-woo-mb.php:2906
+msgid "Description Font Size"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1455 ../admin/metabox/twi-woo-mb.php:2014
+#: ../admin/metabox/twi-woo-mb.php:2487 ../admin/metabox/twi-woo-mb.php:2916
+msgid "Description Line Height"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1466 ../admin/metabox/twi-woo-mb.php:2040
+#: ../admin/metabox/twi-woo-mb.php:2513 ../admin/metabox/twi-woo-mb.php:2927
+msgid "<h3>Product Price Setting</h3>"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1479 ../admin/metabox/twi-woo-mb.php:2053
+#: ../admin/metabox/twi-woo-mb.php:2526 ../admin/metabox/twi-woo-mb.php:2940
+msgid "Font Size"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1488 ../admin/metabox/twi-woo-mb.php:2078
+#: ../admin/metabox/twi-woo-mb.php:2551 ../admin/metabox/twi-woo-mb.php:2950
+msgid "<h3>Product Star Setting</h3>"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1494 ../admin/metabox/twi-woo-mb.php:2084
+#: ../admin/metabox/twi-woo-mb.php:2557 ../admin/metabox/twi-woo-mb.php:2956
+msgid "Star Color"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1500 ../admin/metabox/twi-woo-mb.php:2090
+#: ../admin/metabox/twi-woo-mb.php:2563 ../admin/metabox/twi-woo-mb.php:2962
+msgid "Star Size"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1510 ../admin/metabox/twi-woo-mb.php:2115
+#: ../admin/metabox/twi-woo-mb.php:2588 ../admin/metabox/twi-woo-mb.php:2972
+msgid "<h3>Cart Settings</h3>"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1516 ../admin/metabox/twi-woo-mb.php:2121
+#: ../admin/metabox/twi-woo-mb.php:2594 ../admin/metabox/twi-woo-mb.php:2978
+msgid "Cart Text Color"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1537 ../admin/metabox/twi-woo-mb.php:2142
+#: ../admin/metabox/twi-woo-mb.php:2615 ../admin/metabox/twi-woo-mb.php:2999
+msgid "Cart Background"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1543 ../admin/metabox/twi-woo-mb.php:2149
+#: ../admin/metabox/twi-woo-mb.php:2622 ../admin/metabox/twi-woo-mb.php:3006
+msgid "Cart Font Size"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1552 ../admin/metabox/twi-woo-mb.php:2158
+#: ../admin/metabox/twi-woo-mb.php:2631 ../admin/metabox/twi-woo-mb.php:3015
+msgid "Cart Border Width"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1561 ../admin/metabox/twi-woo-mb.php:2167
+#: ../admin/metabox/twi-woo-mb.php:2640 ../admin/metabox/twi-woo-mb.php:3024
+msgid "Cart Border Color"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1567 ../admin/metabox/twi-woo-mb.php:2173
+#: ../admin/metabox/twi-woo-mb.php:2646 ../admin/metabox/twi-woo-mb.php:3030
+msgid "Cart Text Color (Hover)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1573 ../admin/metabox/twi-woo-mb.php:2179
+#: ../admin/metabox/twi-woo-mb.php:2652 ../admin/metabox/twi-woo-mb.php:3036
+msgid "Cart Background (Hover)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1579 ../admin/metabox/twi-woo-mb.php:2186
+#: ../admin/metabox/twi-woo-mb.php:2659 ../admin/metabox/twi-woo-mb.php:3043
+msgid "Cart Border Color (Hover)"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1585 ../admin/metabox/twi-woo-mb.php:2192
+#: ../admin/metabox/twi-woo-mb.php:2665 ../admin/metabox/twi-woo-mb.php:3049
+msgid "Cart Border Radius"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1595 ../admin/metabox/twi-woo-mb.php:1741
+#: ../admin/metabox/twi-woo-mb.php:2218 ../admin/metabox/twi-woo-mb.php:2691
+#: ../admin/metabox/twi-woo-mb.php:3059
+msgid "<h3>Label/Ribbon Settings</h3>"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1601 ../admin/metabox/twi-woo-mb.php:1747
+#: ../admin/metabox/twi-woo-mb.php:2224 ../admin/metabox/twi-woo-mb.php:2697
+#: ../admin/metabox/twi-woo-mb.php:3065
+msgid "Sales Background"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1607 ../admin/metabox/twi-woo-mb.php:1753
+#: ../admin/metabox/twi-woo-mb.php:2230 ../admin/metabox/twi-woo-mb.php:2703
+#: ../admin/metabox/twi-woo-mb.php:3071
+msgid "Sales Text Color"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1613 ../admin/metabox/twi-woo-mb.php:1759
+#: ../admin/metabox/twi-woo-mb.php:2236 ../admin/metabox/twi-woo-mb.php:2709
+#: ../admin/metabox/twi-woo-mb.php:3077
+msgid "Out of Sales Background"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1619 ../admin/metabox/twi-woo-mb.php:1765
+#: ../admin/metabox/twi-woo-mb.php:2242 ../admin/metabox/twi-woo-mb.php:2715
+#: ../admin/metabox/twi-woo-mb.php:3083
+msgid "Out of Sales Text Color"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1625 ../admin/metabox/twi-woo-mb.php:1771
+#: ../admin/metabox/twi-woo-mb.php:2248 ../admin/metabox/twi-woo-mb.php:2721
+#: ../admin/metabox/twi-woo-mb.php:3089
+msgid "Featured Background"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1631 ../admin/metabox/twi-woo-mb.php:1777
+#: ../admin/metabox/twi-woo-mb.php:2254 ../admin/metabox/twi-woo-mb.php:2727
+#: ../admin/metabox/twi-woo-mb.php:3095
+msgid "Featured Text Color"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1647
+msgid "Image Only Preview"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1791 ../admin/metabox/twi-woo-mb.php:2269
+msgid "Hover Style Preview"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1861 ../admin/metabox/twi-woo-mb.php:1881
+msgid "Overlay Effects"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1907 ../admin/metabox/twi-woo-mb.php:2380
+#: ../admin/metabox/twi-woo-mb.php:2824
+msgid "50% --> Circle"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:1975 ../admin/metabox/twi-woo-mb.php:2448
+msgid "Title animation"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:2024 ../admin/metabox/twi-woo-mb.php:2497
+msgid "Description animation"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:2063 ../admin/metabox/twi-woo-mb.php:2536
+msgid "Price animation"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:2100 ../admin/metabox/twi-woo-mb.php:2573
+msgid "Rating animation"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:2202 ../admin/metabox/twi-woo-mb.php:2675
+msgid "Cart button animation"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:2341
+msgid "Overlay Effect"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:2356
+msgid "Image Effect"
+msgstr ""
+
+#: ../admin/metabox/twi-woo-mb.php:2744
+msgid "Overlay Style Preview"
+msgstr ""
+
+#: ../admin/option/option.php:5 ../config.php:25
+msgid "TWI Awesome Woocommerce Grid/Slider/Carousel Options"
+msgstr ""
+
+#: ../admin/option/option.php:9
+msgid "Upsells Slider"
+msgstr ""
+
+#: ../admin/option/option.php:16
+msgid "Upsells Slider Options"
+msgstr ""
+
+#: ../admin/option/option.php:22 ../admin/option/option.php:191
+#: ../admin/option/option.php:344
+msgid "Do you want to active Up sells slider/Carousel ?"
+msgstr ""
+
+#: ../admin/option/option.php:23 ../admin/option/option.php:192
+#: ../admin/option/option.php:345 ../admin/option/option.php:523
+#: ../admin/option/option.php:547 ../admin/option/option.php:590
+#: ../admin/option/option.php:633 ../admin/option/option.php:676
+msgid "Enable/Disable options"
+msgstr ""
+
+#: ../admin/option/option.php:33 ../admin/option/option.php:202
+#: ../admin/option/option.php:355
+msgid "Caroseul/Slider options"
+msgstr ""
+
+#: ../admin/option/option.php:59 ../admin/option/option.php:228
+#: ../admin/option/option.php:381
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: ../admin/option/option.php:60 ../admin/option/option.php:229
+#: ../admin/option/option.php:382
+msgid "Autoplay Timeout (Second)"
+msgstr ""
+
+#: ../admin/option/option.php:97 ../admin/option/option.php:418
+msgid "Forced Full Width"
+msgstr ""
+
+#: ../admin/option/option.php:130 ../admin/option/option.php:281
+#: ../admin/option/option.php:448
+msgid "Product show options"
+msgstr ""
+
+#: ../admin/option/option.php:142 ../admin/option/option.php:293
+#: ../admin/option/option.php:471
+msgid "Desktop"
+msgstr ""
+
+#: ../admin/option/option.php:143 ../admin/option/option.php:152
+#: ../admin/option/option.php:161 ../admin/option/option.php:294
+#: ../admin/option/option.php:303 ../admin/option/option.php:312
+#: ../admin/option/option.php:472 ../admin/option/option.php:481
+#: ../admin/option/option.php:490
+msgid "How many products show"
+msgstr ""
+
+#: ../admin/option/option.php:151 ../admin/option/option.php:302
+#: ../admin/option/option.php:480
+msgid "Tablet"
+msgstr ""
+
+#: ../admin/option/option.php:160 ../admin/option/option.php:311
+#: ../admin/option/option.php:489
+msgid "Mobile"
+msgstr ""
+
+#: ../admin/option/option.php:178
+msgid "Cross-sells Slider"
+msgstr ""
+
+#: ../admin/option/option.php:185
+msgid "Cross Sell Slider Options"
+msgstr ""
+
+#: ../admin/option/option.php:331
+msgid "Related Products Slider"
+msgstr ""
+
+#: ../admin/option/option.php:338
+msgid "Related Products Slider Options"
+msgstr ""
+
+#: ../admin/option/option.php:461
+msgid "Total display"
+msgstr ""
+
+#: ../admin/option/option.php:462
+msgid "How many (total) products show"
+msgstr ""
+
+#: ../admin/option/option.php:509
+msgid "Woocommerce Overide"
+msgstr ""
+
+#: ../admin/option/option.php:516
+msgid "Woocommerce Page Overide"
+msgstr ""
+
+#: ../admin/option/option.php:522
+msgid "Do you want to overide your woocommerce pages ?"
+msgstr ""
+
+#: ../admin/option/option.php:533
+msgid "Shop Page"
+msgstr ""
+
+#: ../admin/option/option.php:546
+msgid "Do you want to overide your woocommerce shop pages ?"
+msgstr ""
+
+#: ../admin/option/option.php:558 ../admin/option/option.php:601
+#: ../admin/option/option.php:644 ../admin/option/option.php:687
+msgid "Overide/Redirect Page"
+msgstr ""
+
+#: ../admin/option/option.php:576
+msgid "Category Page"
+msgstr ""
+
+#: ../admin/option/option.php:589
+msgid "Do you want to overide your woocommerce category pages ?"
+msgstr ""
+
+#: ../admin/option/option.php:619
+msgid "Tag Page"
+msgstr ""
+
+#: ../admin/option/option.php:632
+msgid "Do you want to overide your woocommerce tag pages ?"
+msgstr ""
+
+#: ../admin/option/option.php:662
+msgid "Search Page"
+msgstr ""
+
+#: ../admin/option/option.php:675
+msgid "Do you want to overide your woocommerce search pages ?"
+msgstr ""
+
+#: ../admin/option/option.php:710 ../admin/option/option.php:717
+#: ../admin/option/option.php:784
+msgid "Product Image Size Settings"
+msgstr ""
+
+#: ../admin/option/option.php:723
+msgid "Select Image Size"
+msgstr ""
+
+#: ../admin/option/option.php:739
+msgid "Custom Image Size Settings"
+msgstr ""
+
+#: ../admin/option/option.php:750
+msgid "Width"
+msgstr ""
+
+#: ../admin/option/option.php:758
+msgid "Height"
+msgstr ""
+
+#: ../admin/option/option.php:766
+msgid "Hard Crop"
+msgstr ""
+
+#: ../admin/option/option.php:794
+msgid "Normal Announcement"
+msgstr ""
+
+#: ../admin/option/option.php:795
+msgid "<a href=\""
+msgstr ""
+
+#: ../admin/shortcode/shortcode.php:3 ../config.php:51 ../config.php:52
+msgid "TWI Advanced Grid/Slider/Carousel"
+msgstr ""
+
+#: ../admin/shortcode/shortcode.php:6
+msgid "TWI Advanced Grid/Slider/Carousel Shortcode"
+msgstr ""
+
+#: ../admin/shortcode/shortcode.php:13
+msgid "Setect your shortcode"
+msgstr ""
+
+#: ../config.php:26
+msgid "TWI Woo Options"
+msgstr ""
+
+#: ../cp/cp.php:5 ../cp/cp.php:6
+msgid "Grid/Carousel/Slider Shortcode Builder"
+msgstr ""
+
+#: ../cp/cp.php:7
+msgid "TWI Grid-Carousel-Slider"
+msgstr ""
+
+#: ../cp/cp.php:8
+msgid "All Shortcodes"
+msgstr ""
+
+#: ../cp/cp.php:9
+msgid "Add Shortcode"
+msgstr ""
+
+#: ../cp/cp.php:10
+msgid "Add New Shortcode"
+msgstr ""
+
+#: ../cp/cp.php:11
+msgid "Edit Shortcode"
+msgstr ""
+
+#: ../cp/cp.php:12
+msgid "New Shortcode"
+msgstr ""
+
+#: ../cp/cp.php:13
+msgid "View Shortcode"
+msgstr ""
+
+#: ../cp/cp.php:14
+msgid "Search Shortcode"
+msgstr ""
+
+#: ../cp/cp.php:15
+msgid "Nothing found"
+msgstr ""
+
+#: ../cp/cp.php:16
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../inc/bootstrap.php:88 ../inc/classes/option.php:364
+#: ../inc/classes/option.php:389
+msgid "Successful"
+msgstr ""
+
+#: ../inc/bootstrap.php:99
+msgid "Unauthorized function"
+msgstr ""
+
+#: ../inc/classes/metabox.php:35
+msgid "[Development Mode] "
+msgstr ""
+
+#: ../inc/classes/metabox.php:566 ../inc/classes/metabox/alchemy.php:493
+msgid "Remove"
+msgstr ""
+
+#: ../inc/classes/metabox.php:588 ../inc/classes/metabox/alchemy.php:515
+msgid "Add More"
+msgstr ""
+
+#: ../inc/classes/option.php:47 ../inc/classes/option.php:48
+msgid "Vafpress Options"
+msgstr ""
+
+#: ../inc/classes/option.php:61
+msgid "Option Key is required"
+msgstr ""
+
+#: ../inc/classes/option.php:63
+msgid "Template Array/File is required"
+msgstr ""
+
+#: ../inc/classes/option.php:65
+msgid "Page Slug is required"
+msgstr ""
+
+#: ../inc/classes/option.php:167
+msgid ""
+"Development Mode is Active, options' values won't be saved into database."
+msgstr ""
+
+#: ../inc/classes/option.php:306
+msgid "Can not be empty"
+msgstr ""
+
+#: ../inc/classes/option.php:331
+msgid "Invalid data"
+msgstr ""
+
+#: ../inc/classes/option.php:394
+msgid "Unverified Access"
+msgstr ""
+
+#: ../inc/classes/option.php:460
+msgid "Invalid template supplied"
+msgstr ""
+
+#: ../inc/classes/option.php:473
+msgid "Utility"
+msgstr ""
+
+#: ../inc/classes/option.php:479 ../inc/views/option/restore.php:13
+msgid "Restore Default"
+msgstr ""
+
+#: ../inc/classes/option.php:488
+msgid "Export/Import"
+msgstr ""
+
+#: ../inc/classes/option/control/set.php:359
+msgid "Saving successful"
+msgstr ""
+
+#: ../inc/classes/option/control/set.php:370
+msgid "Saving failed"
+msgstr ""
+
+#: ../inc/classes/option/control/set.php:376
+msgid "No changes made"
+msgstr ""
+
+#: ../inc/classes/shortcodegenerator.php:260
+msgid "Insert"
+msgstr ""
+
+#: ../inc/classes/shortcodegenerator.php:261
+msgid "Cancel"
+msgstr ""
+
+#: ../inc/config/messages.php:13
+msgid "Value needs to be Alphabet"
+msgstr ""
+
+#: ../inc/config/messages.php:14
+msgid "Value needs to be Alphanumeric"
+msgstr ""
+
+#: ../inc/config/messages.php:15
+msgid "Value needs to be Numeric"
+msgstr ""
+
+#: ../inc/config/messages.php:16
+msgid "Value needs to be Valid Email"
+msgstr ""
+
+#: ../inc/config/messages.php:17
+msgid "Value needs to be Valid URL"
+msgstr ""
+
+#: ../inc/config/messages.php:18
+msgid "Length needs to be less than {0} characters"
+msgstr ""
+
+#: ../inc/config/messages.php:19
+msgid "Length needs to be more than {0} characters"
+msgstr ""
+
+#: ../inc/config/messages.php:20
+msgid "Select no more than {0} items"
+msgstr ""
+
+#: ../inc/config/messages.php:21
+msgid "Select at least {0} items"
+msgstr ""
+
+#: ../inc/config/messages.php:22
+msgid "This is required"
+msgstr ""
+
+#: ../inc/config/messages.php:29
+msgid "Import succeed, option page will be refreshed.."
+msgstr ""
+
+#: ../inc/config/messages.php:30
+msgid "Import failed"
+msgstr ""
+
+#: ../inc/config/messages.php:31
+msgid "Export succeed, copy the JSON formatted options"
+msgstr ""
+
+#: ../inc/config/messages.php:32
+msgid "Export failed"
+msgstr ""
+
+#: ../inc/config/messages.php:33
+msgid "Restoration succeed, option page will be refreshed.."
+msgstr ""
+
+#: ../inc/config/messages.php:34
+msgid "Options identical to default"
+msgstr ""
+
+#: ../inc/config/messages.php:35
+msgid "Restoration failed"
+msgstr ""
+
+#: ../inc/config/messages.php:43
+msgid "Select option(s)"
+msgstr ""
+
+#: ../inc/config/messages.php:45
+msgid "Select an Icon"
+msgstr ""
+
+#: ../inc/views/control/upload.php:5
+msgid "Choose File"
+msgstr ""
+
+#: ../inc/views/option/impexp.php:4 ../inc/views/option/impexp.php:14
+msgid "Import"
+msgstr ""
+
+#: ../inc/views/option/impexp.php:7
+msgid "Import Options"
+msgstr ""
+
+#: ../inc/views/option/impexp.php:27 ../inc/views/option/impexp.php:37
+msgid "Export"
+msgstr ""
+
+#: ../inc/views/option/impexp.php:30
+msgid "Export Options"
+msgstr ""
+
+#: ../inc/views/option/restore.php:4
+msgid "Restore Default Options"
+msgstr ""
+
+#: ../inc/views/option/restore.php:7
+msgid "Restore options to initial default values."
+msgstr ""
+
+#: ../inc/views/option/restore.php:14
+msgid ""
+"** Please make sure you have already make a backup data of your current "
+"settings. Once you click this button, your current settings will be gone."
+msgstr ""
+
+#: ../inc/views/option/set.php:69 ../inc/views/option/set.php:84
+msgid "Save Changes"
+msgstr ""
+
+#: ../inc/views/option/set.php:70 ../inc/views/option/set.php:85
+msgid "Saving Now"
+msgstr ""
+
+#: ../inc/views/option/set.php:93
+msgid ""
+"Thanks to use our plugin. You can visit our portfolio <strong><em><a href="
+"\"http://codecanyon.net/user/twibd/portfolio\" target=\"_blank\">here on "
+"Codecanyon</a></em></strong>."
+msgstr ""
+
+#: ../settings/class.settings-api.php:296
+msgid "Browse"
+msgstr ""
+
+#: ../settings/image-rebuilder.php:10
+msgid "Products Image Re-builder"
+msgstr ""
+
+#: ../settings/image-rebuilder.php:11
+msgid "Products Image"
+msgstr ""
+
+#: ../settings/image-rebuilder.php:36
+msgid "TWI Woocommerce Products Images Regenerator"
+msgstr ""
+
+#: ../settings/image-rebuilder.php:41
+msgid "Regenerate Now"
+msgstr ""
+
+#: ../settings/image-rebuilder.php:45
+msgid "Done"
+msgstr ""
+
+#: ../settings/image-rebuilder.php:46
+msgid "Dont close the browser"
+msgstr ""
+
+#: ../settings/settings.php:39
+msgid "Framework Install"
+msgstr ""
+
+#: ../settings/settings.php:43
+msgid "Preloader Settings"
+msgstr ""
+
+#: ../settings/settings.php:59
+msgid "Framework Install ?"
+msgstr ""
+
+#: ../settings/settings.php:71
+msgid "Preloader Active ?"
+msgstr ""
+
+#: ../template/ajax/grid.php:56 ../template/ajax/grid.php:115
+#: ../template/ajax/grid.php:174 ../template/ajax/grid.php:233
+#: ../template/ajax/grid.php:293 ../template/ajax/pinterest.php:56
+#: ../template/ajax/pinterest.php:114 ../template/ajax/pinterest.php:172
+#: ../template/ajax/pinterest.php:230 ../template/ajax/pinterest.php:288
+msgid "«"
+msgstr ""
+
+#: ../template/ajax/grid.php:57 ../template/ajax/grid.php:116
+#: ../template/ajax/grid.php:175 ../template/ajax/grid.php:234
+#: ../template/ajax/grid.php:294 ../template/ajax/pinterest.php:57
+#: ../template/ajax/pinterest.php:115 ../template/ajax/pinterest.php:173
+#: ../template/ajax/pinterest.php:231 ../template/ajax/pinterest.php:289
+msgid "»"
+msgstr ""
+
+#: ../template/ajax/grid.php:58 ../template/ajax/grid.php:117
+#: ../template/ajax/grid.php:176 ../template/ajax/grid.php:235
+#: ../template/ajax/grid.php:295 ../template/ajax/pinterest.php:58
+#: ../template/ajax/pinterest.php:116 ../template/ajax/pinterest.php:174
+#: ../template/ajax/pinterest.php:232 ../template/ajax/pinterest.php:290
+msgid "Page"
+msgstr ""
+
+#: ../template/ajax/grid.php:63 ../template/ajax/grid.php:122
+#: ../template/ajax/grid.php:181 ../template/ajax/grid.php:240
+#: ../template/ajax/grid.php:300 ../template/ajax/pinterest.php:63
+#: ../template/ajax/pinterest.php:121 ../template/ajax/pinterest.php:179
+#: ../template/ajax/pinterest.php:237 ../template/ajax/pinterest.php:295
+#: ../template/grid.php:41 ../template/grid.php:81 ../template/grid.php:121
+#: ../template/grid.php:161 ../template/grid.php:201
+#: ../template/justified.php:46 ../template/justified.php:87
+#: ../template/justified.php:129 ../template/main/woo.php:18
+#: ../template/pinterest.php:43 ../template/pinterest.php:84
+#: ../template/pinterest.php:125 ../template/pinterest.php:166
+#: ../template/pinterest.php:207 ../template/slider.php:70
+#: ../template/slider.php:133 ../template/slider.php:195
+#: ../template/slider.php:258 ../template/slider.php:320
+#: ../template/slideset.php:42 ../template/slideset.php:87
+#: ../template/slideset.php:132 ../template/slideset.php:178
+#: ../template/slideset.php:223
+msgid "No products found"
+msgstr ""
+
+#: ../template/grid-cat.php:5 ../template/pinterest-cat.php:5
+#: ../template/slider-cat.php:5 ../template/slideset-cat.php:5
+msgid "Sorry, this style is not available for category showcase."
+msgstr ""
+
+#: ../template/justified-cat.php:5 ../template/justified-cat.php:11
+#: ../template/justified.php:5 ../template/justified.php:11
+msgid "Sorry, this style is not available for this option."
+msgstr ""
+
+#: ../template/query/sorter.php:17
+msgid "Showing the single result"
+msgstr ""
+
+#: ../template/query/sorter.php:19
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: ../template/query/sorter.php:44
+msgid "Sort By Default Order"
+msgstr ""
+
+#: ../template/query/sorter.php:45
+msgid "Sort by popularity"
+msgstr ""
+
+#: ../template/query/sorter.php:46
+msgid "Sort by newness"
+msgstr ""
+
+#: ../template/query/sorter.php:47
+msgid "Sort by oldest"
+msgstr ""
+
+#: ../template/query/sorter.php:48
+msgid "Sort by name: a to z"
+msgstr ""
+
+#: ../template/query/sorter.php:49
+msgid "Sort by name: z to a"
+msgstr ""
+
+#: ../template/query/sorter.php:50
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: ../template/query/sorter.php:51
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: ../template/query/sorter.php:52
+msgid "Sort by SKU: low to high"
+msgstr ""
+
+#: ../template/query/sorter.php:53
+msgid "Sort by SKU: high to low"
+msgstr ""
+
+#: ../template/query/sorter.php:54
+msgid "Sort by stock: low to high"
+msgstr ""
+
+#: ../template/query/sorter.php:55
+msgid "Sort by stock: high to low"
+msgstr ""
+
+#: ../template/query/sorter.php:56
+msgid "Sort by random"
+msgstr ""
+
+#: ../template/query/sorter.php:68
+msgid "Show "
+msgstr ""
+
+#: ../template/query/sorter.php:71
+msgid "Default"
+msgstr ""
+
+#: ../template/query/sorter.php:73
+msgid "8"
+msgstr ""
+
+#: ../template/query/sorter.php:74
+msgid "12"
+msgstr ""
+
+#: ../template/query/sorter.php:75
+msgid "15"
+msgstr ""
+
+#: ../template/query/sorter.php:76
+msgid "30"
+msgstr ""
+
+#: ../template/query/sorter.php:77
+msgid "80"
+msgstr ""
+
+#: ../template/query/sorter.php:78
+msgid "All"
+msgstr ""
+
+#: ../template/query/sorter.php:87
+msgid "per page"
+msgstr ""
+
+#: ../template/rib/rib.php:7
+msgid "Sale!"
+msgstr ""
+
+#: ../template/rib/rib.php:10
+msgid "Out of stock"
+msgstr ""
+
+#: ../twi-awesome-woocommerce-slider-carousel.php:39
+msgid ""
+"<i><b><span style=\"color:#9C5D90\">You must need to install \"Woocommerce\" "
+"plugin first to show the options of \"TWI Awesome Woocommerce Grid/Slider/"
+"Carousel\" plugin.</span></b></i>"
+msgstr ""
+
+#: ../widget.php:6
+msgid "Woo Grid/Slider/Carousel"
+msgstr ""
+
+#: ../widget.php:9
+msgid "This is widget for TWI Woocommerce Grid/Slider/Carousel."
+msgstr ""
+
+#: ../widget/form.php:2
+msgid "Title:"
+msgstr ""
+
+#: ../widget/form.php:9
+msgid "Hide title"
+msgstr ""
+
+#: ../widget/form.php:14
+msgid "Select Your Shortcode:"
+msgstr ""

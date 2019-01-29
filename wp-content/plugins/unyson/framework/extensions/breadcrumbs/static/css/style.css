@@ -1,0 +1,13 @@
+.breadcrumbs {
+	/*margin: 12px 0;*/
+	/*font-size: 80%;*/
+	/*line-height: 1.3em;*/
+}
+
+.breadcrumbs a{
+	text-decoration: none;
+	color: #b89855;
+	font-family: Lato-light;
+	font-size: 13px;
+	/*color: inherit;*/
+}

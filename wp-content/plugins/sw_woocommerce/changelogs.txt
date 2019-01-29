@@ -1,0 +1,26 @@
+
+###########################################
+v1.0.0: Release
+
+
+###########################################
+v1.0.1
+- Fix category ajax after update woocommerce 2.6.1
+- Add link to banner category ajax.
+
+###########################################
+v1.0.2
+- Fix quickview for WooCommerce 2.6.7
+- Update translate for plugins.
+
+
+###########################################
+v1.1.0
+- Update layout for mobile theme
+- Add WooCommerce shortcode
+- Update translation.
+
+###########################################
+v1.2.0
+- Update Ajax for some layout tab
+- Update translation.

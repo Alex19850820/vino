@@ -1,0 +1,18 @@
+
+###########################################
+v1.0.0: Release
+
+
+###########################################
+v1.0.1
+- Remove woocommerce shortcode 
+- Update translate for plugins.
+
+
+###########################################
+v1.1.0
+- Fix bug duplicate function and class 
+
+###########################################
+v1.1.1
+- Fix some bug from last version. 

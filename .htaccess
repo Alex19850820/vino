@@ -1,0 +1,37 @@
+
+# BEGIN WordPress
+#<IfModule mod_rewrite.c>
+#RewriteEngine On
+#RewriteBase /
+#RewriteRule ^index\.php$ - [L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /index.php [L]
+#</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# END WordPress
+
+#my settings
+<ifModule mod_headers.c>
+	    <FilesMatch "\.(js|css|txt)$">
+	        Header set Cache-Control "max-age=604800"
+	    </FilesMatch>
+	    <FilesMatch "\.(flv|swf|ico|gif|jpg|jpeg|png)$">
+	        Header set Cache-Control "max-age=2592000"
+	    </FilesMatch>
+	    <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+	        Header unset Cache-Control
+	    </FilesMatch>
+</IfModule>

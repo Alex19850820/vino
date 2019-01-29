@@ -1,0 +1,49 @@
+.sortable-handle {
+    cursor: move;
+}
+
+.premmerce-filter-table__align-center {
+    text-align: center !important;
+    position: relative;
+}
+
+.premmerce-filter-table__align-right {
+    text-align: right !important;
+}
+
+.click-action-span {
+    cursor: pointer;
+}
+
+.filter-settings-input {
+    width: 100%;
+}
+
+.filter-settings-select {
+    min-width: 200px;
+}
+
+.pc-colors-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pc-colors-list__item {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    box-sizing: content-box;
+    width: calc(50% - 15px);
+}
+
+.pc-filter-loader {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.premmerce-filter-table__align-center .pc-filter-loader {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translate(20px);
+}

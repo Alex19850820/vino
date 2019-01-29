@@ -1,0 +1,51 @@
+/* variation custom */
+.sw-custom-variation{
+	input[type="radio"]{
+		display: none;
+	}
+	.sw-radio-variation{
+		margin: 0 2px;
+		border: 1px solid #dedede;
+		span{
+			display: block;
+			line-height: 30px;
+			min-width: 30px;
+			padding: 0 5px;
+			text-align: center;
+			min-height: 30px;
+			cursor: pointer;
+			font-size: 12px;
+			position: relative;
+			&.variation-color{
+				text-indent: -9999px;
+				margin: 1px;
+			}
+		}
+		&.selected{
+			border-color: @color;
+			span{
+				background: @color;
+				color: #fff;				
+			}
+		}
+		&.disabled{
+			cursor: not-allowed;
+			pointer-events: none; // Future-proof disabling of clicks
+			.opacity(.7);
+			.box-shadow(none);
+			span{
+				&:before{
+					content: '';
+					position: absolute;
+					width: 1px;
+					background: @color;
+					height: 44px;
+					transform: rotate(45deg);
+					top: -7px;
+					right: 15px;
+					opacity: 1;
+				}
+			}
+		}
+	}	
+}

@@ -1,0 +1,339 @@
+
+// load bootstrap.less included variables.less & mixins.less
+@import "app/mixins.less";
+@import "app/language_click.less";
+@import "flexbox.less";
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+body{ 
+	background: #fff;
+	color: @body-color;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.6;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+	a{
+		color: #666;
+		&:hover{
+			color: @color;
+			text-decoration: none;
+		}
+		&:focus{
+			text-decoration: none;
+		}
+	}
+	
+	h1, h2, h3, h4, h5, h6{
+		margin: 0 0 10px;
+		font-family: inherit;
+		font-size: 100%;
+	}
+	a{
+		outline: medium none !important;
+	}
+	input, textarea, button {
+		outline: medium none !important;
+		border: 1px solid @border-color;
+		margin-bottom: 10px;
+		.border-radius(4px);
+		padding: 0px 5px;
+	}
+	img{
+		.img-responsive();
+		  display: block;
+          max-width: 100%;
+          height: auto;
+	}
+	ul{
+		padding: 0;
+	}
+	ul, ol{
+     margin-left: 15px;
+    }
+	ol{
+		padding-left: 15px;
+	}
+}
+.strong {
+	font-weight: bold;
+}
+.slick-slide img {
+	margin: 0 auto;
+}
+.theme-clearfix:after{
+	height: 0;
+	clear: both;
+	content: " ";
+	font-size: 0;
+	min-height: 0;
+	display: block;
+	visibility: hidden;
+}
+/* Images in content post*/
+.thumbnail{
+	max-width: 100%;
+}
+.size-full {
+    width:100%;
+    height:auto;
+    margin:0 0 30px 0;
+}
+.alignleft {
+    float: left;
+    margin:0 15px 30px 0;
+    .rtl &{
+    	float: right;
+    	margin: 0 0 30px 15px;
+    }
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 30px auto;
+	clear: both;
+}
+.alignright {
+    float: right;
+    margin:0 0 30px 15px;
+    .rtl &{
+    	float: left;
+    	margin: 0 15px 30px 0;
+    }
+}
+.alignnone {
+    float: none;
+	clear: both;
+    display:block;
+    margin:0 0 30px 0;
+}
+
+p .size-full {
+    width: auto;
+    height:auto;
+    margin:5px 0 30px 0;
+}
+p .alignleft {
+    float: left;
+    margin:5px 15px 30px 0 ;
+    .rtl &{
+    	float: right;
+    	margin: 5px 0 30px 15px; 
+    }
+}
+p .aligncenter {
+    display: block;
+    margin: 5px auto 30px auto;
+}
+p .alignright {
+    float: right;
+    margin:5px 0 30px 15px;
+    .rtl &{
+     	float: left;
+     	margin: 5px 15px 30px 0;
+    }
+}
+p .alignnone {
+    float: none;
+    display:block;
+    margin:5px 0 30px 0;
+}
+figure .size-full{
+	margin: 0;
+}
+.no-margin {margin:0 !important}
+.home.blog{
+	.main-menu{
+		margin-bottom: 20px;
+	}
+	h1.entry-title{
+		margin-top: 20px;
+	}
+}
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+ul.menu, .dropdown ul{
+	list-style: none;
+}
+.product-thumb-hover{
+	overflow: hidden;
+}
+.no-padding {
+    padding: 0 !important;
+}
+.no-padding-l{
+padding-left: 0;
+}
+.container{
+	max-width: 1200px;
+}
+:focus {
+    outline: none;
+}
+.margin-bottom30 {
+     margin-bottom:30px !important;
+}
+/* ==========================================================================
+   button
+   ========================================================================== */
+.button {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    white-space: nowrap;
+    font-size: 100%;
+    text-transform: uppercase;
+    background-color: #666666;
+    border: none;
+    color: #fff;
+	&:hover{
+	  background-color:@color;
+	}
+}
+.btn-search-mobilev2 {
+    border: 1px solid #ddd;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+	cursor: pointer;
+    color: #999;
+	&:hover {
+		background: @color;
+		color: #fff;
+		border-color: @color;
+		transition: 0.2s;
+		-moz-transition: 0.2s;
+		-webkit-transition: 0.2s;
+	}
+}
+.custom.tparrows {
+    border-radius:50%;
+    border: 2px solid #fff;
+	opacity:0.7;
+	width: 36px;
+    height: 36px;
+	background:none;
+	&:before {
+			font-family: FontAwesome !important;
+			content: "\f104" !important;
+			vertical-align: middle;
+			font-size: 30px!important;
+			line-height: 30px!important;
+		}
+	&:hover {
+	   opacity:1;
+	   background:none;
+	}
+}
+.custom.tp-leftarrow{
+	left: -21px!important;
+	&:before {
+		content: "\f104" !important;
+	}
+	&:hover{
+		border-color: @color !important;
+		&:before{
+			color: @color !important;
+		}
+	}
+}
+.custom.tp-rightarrow {
+    left:inherit!important;
+	right:-58px;
+	&:before {
+		content: "\f105" !important;
+	}
+	&:hover{
+		border-color: @color !important;
+		&:before{
+			color: @color !important;
+		}
+	}
+}
+.margin-bottom40 {
+    margin-bottom:40px !important;
+}
+.sn-img{
+    &:before {
+		background: url(../assets/img/add1.png) no-repeat -18px -2px @color;
+		content: "";
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		top: 0;
+		left: 0;
+		 .single-product.full2 &,.full3 & {
+		    display:none;
+		 }
+	}
+    &.icon-bacsic2:before {
+		background-position: -18px -91px;
+	} 
+	&.item1:before {
+		background-position: -22px -135px;
+	}
+}
+#ya-totop {
+    background: url("../assets/img/group_btn.png") no-repeat scroll center -319px transparent;
+    border-radius: 45px;
+    bottom: 15px;
+    height: 45px;
+    overflow: hidden;
+    position: fixed;
+    right: 15px;
+    width: 45px;
+    z-index: 9999;
+	background-color:@color;
+	&:hover {
+	  background-color:lighten(@color, 10%)
+	}
+}
+/*	===================================================================
+	content
+	===================================================================	*/
+@import "app/_menu.less";
+@import "app/_res_menu.less";
+@import "app/_header.less";
+@import "app/_header10.less";
+@import "app/_header11.less";
+@import "app/_header12.less";
+@import "app/_header13.less";
+@import "app/_header14.less";
+@import "app/_header15.less";
+@import "app/page404.less";
+@import "app/_pages.less";
+@import "app/bb.less";
+@import "app/_search.less";
+@import "app/woocommerce.less";
+@import "app/product_popup.less";
+@import "app/_widgets.less";
+@import "app/content.less";
+@import "app/_footer.less";
+@import "app/_portfolio.less";
+@import "app/shortcodes.less";
+@import "app/style-mobile-1.less";
+@import "app/style-mobile-3.less";
+@import "app/wc_vendor.less";
+@import "app/wc_marketplace.less";
+@import "app/dokan_vendor.less";
+@import "app/product_variation.less";

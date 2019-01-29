@@ -1,0 +1,24 @@
+/*
+Theme Name:         ShoppyStore
+Theme URI:          http://wp.smartaddons.com/themes/sw_shoppy
+Description:        SW Shoppy Store is Shop WordPress Theme.
+Author:             Smartaddons
+Author URI:         http://www.smartaddons.com/
+Version:            3.3.0
+License:            GNU General Public License v2 or later
+*/
+
+.wp-caption{}
+.wp-caption-text{}
+.sticky{}
+.gallery-caption{}
+.bypostauthor{}
+
+/*
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: rtl-language-support, sticky-post, two-columns
+Text Domain: shoppystore
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/

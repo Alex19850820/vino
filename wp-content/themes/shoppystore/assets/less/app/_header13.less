@@ -1,0 +1,128 @@
+.wrap-header{
+    padding: 0;
+    z-index: 999;
+    position: fixed;
+    height: 100%;
+    .width(280%,1920);
+    .header-style13{
+        height: 100%;
+        display: block !important;
+        opacity: 1;
+        background: url("../assets/img/bg-header.jpg") no-repeat;
+        background-size: cover;
+        .top-header{
+            .ya-logo{
+                float: none;
+                text-align: center;
+                a{
+                    margin-bottom: 46px;
+                    margin-top: 31px;
+                    display: block;
+                    img{
+                        display: inline-block;
+                    }
+                }
+            }
+            .menu-header{
+                margin: 0 -15px;
+                border-top: 1px solid rgba(255, 255, 255, 0.08);
+                ul.vertical-megamenu {
+                    position: relative;
+                    background-color: transparent;
+                    border: 0;
+                    text-align: center;
+                    width: 100%;
+                    margin: 0;
+                    padding-top: 35px;
+                    &:before {
+                        display: none;
+                    }
+                    > li {
+                        > a {
+                            font-size: 18px;
+                            color:rgba(255, 255, 255, 0.6);
+                            font-weight: bold;
+                            text-transform: uppercase;
+                            height: 43px;
+                            line-height: 43px;
+                            margin-bottom: 10px;
+                            &:hover {
+                                color:@color;
+                                &:after {
+                                    color:@color;
+                                }
+                            }
+                            &:before{
+                                display: none;
+                            }
+                            &:after {
+                                content: "\f067";
+                                font-size: 8px;
+                                font-weight: 400;
+                            }
+                        }
+                        &:hover,&.active {
+                           > a {
+                                background: rgba(255, 255, 255, 0.15);
+                                color:@color !important;
+                                &:after {
+                                     color:@color;
+                                }
+                            }
+                        }
+                        &.menu-daily-deals {
+                            display: none;
+                        }
+                        ul.dropdown-sub  > li.active  {
+                            > a {
+                                color: @color;
+                            }
+                        }
+                    }
+                }
+                .ya_social{
+                   overflow: hidden;
+                    position: absolute;
+                    bottom: 0px;
+                    left:0;
+                    right: 0;
+                    padding: 37px 0;
+                    border-top: 1px solid rgba(255, 255, 255, 0.08);
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+                    z-index: 345;
+                    .main-social {
+                        margin: 0;
+                        list-style: none;
+                        display: table;
+                        margin: 0 auto;
+                        li {
+                            float: left;
+                            width: 2.084vw;
+                            height: 2.084vw;
+                            line-height: 2.084vw;
+                            text-align: center;
+                            background: rgba(255, 255, 255, 0.1);
+                            .border-radius(50%);
+                            margin: 0 5px;
+                            .fa {
+                                font-size: 14px;
+                                color:rgba(255, 255, 255, 0.5);
+                            }
+                            &:hover {
+                                cursor: pointer;
+                                background: @color;
+                                .fa {
+                                    color:#fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.wap-main {
+    float: right;
+    .width(1640%,1920);
+}

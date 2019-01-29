@@ -1,0 +1,71 @@
+@import "app/mixins1.less";
+.section-popular-index8 {
+     .category-ajax-slider {
+	     .block-title {
+		     display:none;
+		 }
+		 ul.nav-tabs {
+		   border-bottom:0;
+		   overflow: inherit;
+		   .slick-list {overflow: inherit;}
+		  }
+		 ul.nav-tabs li {
+			position:relative;
+			overflow:inherit;
+			border: 0 !important;
+			&:before{
+				content: "";
+				display: block;
+				position: absolute;
+				left: -1px;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				border: 1px solid #ccc;
+				z-index: 1;
+			}
+			> a{
+				position: relative;
+				z-index: 9;
+				display: inline-block; 
+				max-width: 100%;
+			}
+			&.active, &:hover {
+				background:transparent;
+				&:after {
+					content:"\f0d7";
+					position:absolute;
+					font-family:FontAwesome!important;
+					font-size: 18px;
+					bottom: -17px;
+					color: @color;
+					left: 50%;
+					margin-left: -4px;
+				}
+				&:before{
+					border-color: @color;
+					z-index: 2;
+				}
+			}			
+		 }
+	 }
+}
+.section-banner-cate-index8 {
+    .newsletter {
+	    text-align: center;
+		.sn-lettter {
+			padding:39px 20px 40px;
+			background:@color;
+			.block-title {
+				font-size: 18px;
+			}
+			.form-subscribe-header {
+				margin-bottom: 15px;
+			}
+			.mc4wp-form .newsletter {border-radius:3px;}
+			.mc4wp-form .actions input {
+			     background: url(@{cart-url}/plane-2.png) no-repeat center center;
+			}
+		}
+	}
+}

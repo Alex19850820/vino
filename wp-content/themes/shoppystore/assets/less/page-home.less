@@ -1,0 +1,148 @@
+/**** index1 ********/
+.sliderevo1 {
+  width:70%;
+  padding-left:12px;
+  padding-right:0px;
+  .rtl & {padding-left:0;padding-right:12px;}
+}
+.dailydeal {
+    width: 30%;
+    padding-left: 8px;
+	.rtl & {padding-right:8px;}
+	.countdown-slider {
+	    border-top:0;
+		margin-bottom:0;
+		.box-slider-title{
+			position: absolute;
+			top: 0;
+			left: -1px;
+			width: 84px;
+			height: 84px;
+			background: url(../assets/img/icon-deal.png) no-repeat top left;
+			z-index: 696;
+			cursor: pointer;
+		} 
+		.slick-slide {border-right:0 !important}
+		.res-button {
+		        display: block;
+				border: 0;
+				color: #999;
+				background-color: transparent;
+				font-size: 25px;
+				top: 50%;
+				margin-top: -55px;
+				z-index: 6969;
+				&.slick-prev {
+				    left:0px;
+					right:auto;
+				}
+				&.slick-next {
+				    right:0px;
+					left:auto;
+				}
+				&.slick-next:hover:before,&.slick-prev:hover:before{
+				    color:@color;
+				}
+		}
+		.item-content {
+		    text-align:left;
+			.item-price {
+				margin-bottom: 6px;
+			}
+		}
+		.sale-off, .sw-newlabel, .sw-outstock{
+			top: 45px;
+		}
+	}
+}
+
+label {
+    font-weight: normal;
+}
+.home1img {
+     width: inherit;
+	 margin-bottom:30px;
+}
+.accordion_recommend_product {
+   margin-bottom:30px;
+}
+.blog-indicators {
+    display: inline-block;
+	position:relative;
+    width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 1px solid #ddd;
+	border-top:0px;
+	.block-title {
+	     margin: 0 -19px 0px -19px;
+	}
+	.carousel-inner {
+		 .item {
+		    margin: 20px 0;
+			img {
+			     margin-bottom:27px;
+			}
+			.postTitle {
+			    padding-bottom: 10px;
+				h2 {
+					font-size: 116.67%;
+					font-weight: bold;
+					margin:0;
+				}
+			}
+		 }
+	}
+	.carousel-indicators {
+			padding: 11px 0px;
+			border-top: 1px solid #ddd;
+			position: relative;
+			text-align: center;
+			left: 0;
+			width: auto;
+			bottom: 0;
+			margin: 0px -18px 0;
+		.active {
+			background-color:@color;
+		}
+		li {
+		    background-color:#b4b4b4;
+			width:12px;
+			height:12px;
+			margin: 0 3px;
+		}
+	}
+}
+.wpb_single_image,.section-tab-child-cate .category-slider-content .banner-right-cate ul.bottom-category-banner li,
+.section-tab-child-cate .sw-woo-tab-banner-top .tab-content .banner-top-cate ul.bottom-category-banner li,
+.section-latestblog-index7 .widget-thumb .img_over,.intagram-gallery-content .item {
+    a {
+	    display:block;
+		position:relative;
+	    &:before {
+			position: absolute;
+			content: "";
+			width: 100%;
+			height: 100%;
+			visibility: hidden;
+			left: 0;
+			top: 0;
+			opacity: 0;
+			background: url(../assets/img/heo2.png) no-repeat center center #222222;
+			transform: scale(0.5) rotateY(180deg);
+			-webkit-transform: scale(0.5) rotateY(180deg);
+			-moz-transform: scale(0.5) rotateY(180deg);
+			transition: 0.4s;
+			-moz-transition: 0.4s;
+			-webkit-transition: 0.4s;
+			z-index: 99;
+		}
+	}
+	&:hover a:before {
+	        opacity: 0.35;
+			visibility: visible;
+			transform: scale(1) rotateY(0deg);
+			-webkit-transform: scale(1) rotateY(0deg);
+			-moz-transform: scale(1) rotateY(0deg);
+	}
+}

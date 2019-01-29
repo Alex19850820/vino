@@ -1,0 +1,8 @@
+
+###########################################
+v1.0.0: Release
+
+
+###########################################
+v1.0.1
+- Fix not show content when not select a category partner.

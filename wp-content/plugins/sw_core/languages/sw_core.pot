@@ -1,0 +1,1041 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SW Woocommerce\n"
+"POT-Creation-Date: 2018-06-21 15:47+0700\n"
+"PO-Revision-Date: 2016-09-23 17:31+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: posts/sw-post-shortcode.php:1
+msgid "Read more"
+msgstr ""
+
+#: posts/sw-post-shortcode.php:1
+msgid " comments"
+msgstr ""
+
+#: posts/sw-post-shortcode.php:1 sw_plugins/sw-plugins.php:1
+msgid "View All"
+msgstr ""
+
+#: posts/sw-post-shortcode.php:1
+msgid "View All Category"
+msgstr ""
+
+#: sw_plugins/sw-instagram/sw-instagram.php:16
+#: sw_plugins/sw-instagram/sw-instagram.php:80
+msgid "Sw Instagram Gallery"
+msgstr ""
+
+#: sw_plugins/sw-instagram/sw-instagram.php:22
+msgid "Sw Instagram Gallery Widget"
+msgstr ""
+
+#: sw_plugins/sw-instagram/sw-instagram.php:63
+msgid "Error: The access_token provided is invalid."
+msgstr ""
+
+#: sw_plugins/sw-instagram/sw-instagram.php:84
+#: sw_plugins/sw-ourteam/sw-ourteam.php:135
+#: sw_plugins/sw-testimonial/sw-testimonial.php:124
+msgid "SW Core"
+msgstr ""
+
+#: sw_plugins/sw-instagram/sw-instagram.php:90
+#: sw_plugins/sw-instagram/sw-instagram.php:93
+#: sw_plugins/sw-instagram/sw-instagram.php:235
+#: sw_plugins/sw-ourteam/sw-ourteam.php:141
+#: sw_plugins/sw-ourteam/sw-ourteam.php:144
+#: sw_plugins/sw-ourteam/sw-ourteam.php:437
+#: sw_plugins/sw-partner/sw-partner.php:156
+#: sw_plugins/sw-partner/sw-partner.php:159
+#: sw_plugins/sw-partner/sw-partner.php:590
+#: sw_plugins/sw-portfolio/portfolio.php:221
+#: sw_plugins/sw-portfolio/portfolio.php:224
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:62
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:65
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:496
+#: sw_plugins/sw-testimonial/sw-testimonial.php:133
+#: sw_plugins/sw-testimonial/sw-testimonial.php:136
+#: sw_plugins/sw-testimonial/sw-testimonial.php:423 visual-map.php:105
+#: visual-map.php:178
+msgid "Title"
+msgstr ""
+
+#: sw_plugins/sw-instagram/sw-instagram.php:99
+#: sw_plugins/sw-instagram/sw-instagram.php:102
+#: sw_plugins/sw-ourteam/sw-ourteam.php:168
+#: sw_plugins/sw-ourteam/sw-ourteam.php:171
+#: sw_plugins/sw-partner/sw-partner.php:192
+#: sw_plugins/sw-partner/sw-partner.php:195
+#: sw_plugins/sw-portfolio/portfolio.php:266
+#: sw_plugins/sw-portfolio/portfolio.php:269
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:118
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:121
+#: sw_plugins/sw-testimonial/sw-testimonial.php:142
+#: sw_plugins/sw-testimonial/sw-testimonial.php:145
+msgid "Number Of Post"
+msgstr ""
+
+#: sw_plugins/sw-instagram/sw-instagram.php:108
+#: sw_plugins/sw-instagram/sw-instagram.php:111
+#: sw_plugins/sw-instagram/sw-instagram.php:249
+msgid "Instagram User ID"
+msgstr ""
+
+#: sw_plugins/sw-instagram/sw-instagram.php:117
+#: sw_plugins/sw-instagram/sw-instagram.php:120
+#: sw_plugins/sw-instagram/sw-instagram.php:256
+msgid "Access Token"
+msgstr ""
+
+#: sw_plugins/sw-instagram/sw-instagram.php:126
+#: sw_plugins/sw-instagram/sw-instagram.php:129
+msgid "Number Column"
+msgstr ""
+
+#: sw_plugins/sw-instagram/sw-instagram.php:242
+#: sw_plugins/sw-ourteam/sw-ourteam.php:480
+#: sw_plugins/sw-partner/sw-partner.php:638
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:551
+#: sw_plugins/sw-testimonial/sw-testimonial.php:466
+msgid "Number of Posts"
+msgstr ""
+
+#: sw_plugins/sw-instagram/sw-instagram.php:264
+#: sw_plugins/sw-ourteam/sw-ourteam.php:186
+#: sw_plugins/sw-ourteam/sw-ourteam.php:516
+#: sw_plugins/sw-partner/sw-partner.php:210
+#: sw_plugins/sw-partner/sw-partner.php:674
+#: sw_plugins/sw-portfolio/portfolio.php:275
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:127
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:566
+#: sw_plugins/sw-testimonial/sw-testimonial.php:187 visual-map.php:190
+msgid "Number of Columns >1200px: "
+msgstr ""
+
+#: sw_plugins/sw-instagram/sw-instagram.php:284
+#: sw_plugins/sw-ourteam/sw-ourteam.php:653
+#: sw_plugins/sw-partner/sw-partner.php:818
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:703
+#: sw_plugins/sw-testimonial/sw-testimonial.php:507 visual-map.php:148
+msgid "Template"
+msgstr ""
+
+#: sw_plugins/sw-instagram/sw-instagram.php:290
+#: sw_plugins/sw-ourteam/sw-ourteam.php:660
+#: sw_plugins/sw-partner/sw-partner.php:825
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:710
+msgid "Default"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:21
+msgid "Sw Ourteam Slider"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:27
+msgid "Sw Ourteam Slider widget"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:41
+msgid "Our Team"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:42
+msgid "Teams Item"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:43
+#: sw_plugins/sw-partner/sw-partner.php:45
+#: sw_plugins/sw-testimonial/sw-testimonial.php:45
+msgid "Add New"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:44
+msgid "Add New Team Item"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:45
+#: sw_plugins/sw-testimonial/sw-testimonial.php:47
+msgid "Edit Item"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:46
+#: sw_plugins/sw-testimonial/sw-testimonial.php:48
+msgid "New Item"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:47
+msgid "View Team Item"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:48
+msgid "Search Team"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:49
+#: sw_plugins/sw-partner/sw-partner.php:51
+#: sw_plugins/sw-portfolio/portfolio.php:55
+#: sw_plugins/sw-testimonial/sw-testimonial.php:51
+msgid "Nothing found"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:50
+#: sw_plugins/sw-partner/sw-partner.php:52
+#: sw_plugins/sw-portfolio/portfolio.php:56
+#: sw_plugins/sw-testimonial/sw-testimonial.php:52
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:73
+msgid "Our Team Detail"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:88
+msgid "Social"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:89
+msgid "Facebook"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:92
+msgid "Twitter"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:95
+msgid "Google Plus"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:98
+msgid "Linkedin"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:103
+msgid "Member Infomation"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:131
+msgid "Sw Our Team"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:150
+#: sw_plugins/sw-ourteam/sw-ourteam.php:153
+#: sw_plugins/sw-partner/sw-partner.php:174
+#: sw_plugins/sw-partner/sw-partner.php:177
+#: sw_plugins/sw-portfolio/portfolio.php:248
+#: sw_plugins/sw-portfolio/portfolio.php:251
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:100
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:103
+#: sw_plugins/sw-testimonial/sw-testimonial.php:160
+#: sw_plugins/sw-testimonial/sw-testimonial.php:163
+msgid "Order By"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:159
+#: sw_plugins/sw-ourteam/sw-ourteam.php:162
+#: sw_plugins/sw-ourteam/sw-ourteam.php:465
+#: sw_plugins/sw-partner/sw-partner.php:183
+#: sw_plugins/sw-partner/sw-partner.php:186
+#: sw_plugins/sw-partner/sw-partner.php:623
+#: sw_plugins/sw-portfolio/portfolio.php:257
+#: sw_plugins/sw-portfolio/portfolio.php:260
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:109
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:112
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:536
+#: sw_plugins/sw-testimonial/sw-testimonial.php:169
+#: sw_plugins/sw-testimonial/sw-testimonial.php:172
+#: sw_plugins/sw-testimonial/sw-testimonial.php:451
+msgid "Order"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:177
+#: sw_plugins/sw-ourteam/sw-ourteam.php:180
+#: sw_plugins/sw-partner/sw-partner.php:201
+#: sw_plugins/sw-partner/sw-partner.php:204
+#: sw_plugins/sw-testimonial/sw-testimonial.php:178
+#: sw_plugins/sw-testimonial/sw-testimonial.php:181
+msgid "Number row per column"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:189
+#: sw_plugins/sw-partner/sw-partner.php:213
+#: sw_plugins/sw-portfolio/portfolio.php:278
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:130
+#: sw_plugins/sw-testimonial/sw-testimonial.php:190 visual-map.php:193
+msgid "Number of Columns >1200px:"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:195
+#: sw_plugins/sw-ourteam/sw-ourteam.php:198
+#: sw_plugins/sw-partner/sw-partner.php:219
+#: sw_plugins/sw-partner/sw-partner.php:222
+#: sw_plugins/sw-portfolio/portfolio.php:284
+#: sw_plugins/sw-portfolio/portfolio.php:287
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:136
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:139
+#: sw_plugins/sw-testimonial/sw-testimonial.php:196
+#: sw_plugins/sw-testimonial/sw-testimonial.php:199 visual-map.php:199
+#: visual-map.php:202
+msgid "Number of Columns on 992px to 1199px:"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:204
+#: sw_plugins/sw-ourteam/sw-ourteam.php:207
+#: sw_plugins/sw-partner/sw-partner.php:228
+#: sw_plugins/sw-partner/sw-partner.php:231
+#: sw_plugins/sw-portfolio/portfolio.php:293
+#: sw_plugins/sw-portfolio/portfolio.php:296
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:145
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:148
+#: sw_plugins/sw-testimonial/sw-testimonial.php:205
+#: sw_plugins/sw-testimonial/sw-testimonial.php:208 visual-map.php:208
+#: visual-map.php:211
+msgid "Number of Columns on 768px to 991px:"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:213
+#: sw_plugins/sw-ourteam/sw-ourteam.php:216
+#: sw_plugins/sw-partner/sw-partner.php:237
+#: sw_plugins/sw-partner/sw-partner.php:240
+#: sw_plugins/sw-portfolio/portfolio.php:302
+#: sw_plugins/sw-portfolio/portfolio.php:305
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:154
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:157
+#: sw_plugins/sw-testimonial/sw-testimonial.php:214
+#: sw_plugins/sw-testimonial/sw-testimonial.php:217 visual-map.php:217
+#: visual-map.php:220
+msgid "Number of Columns on 480px to 767px:"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:222
+#: sw_plugins/sw-ourteam/sw-ourteam.php:225
+#: sw_plugins/sw-partner/sw-partner.php:246
+#: sw_plugins/sw-partner/sw-partner.php:249
+#: sw_plugins/sw-portfolio/portfolio.php:311
+#: sw_plugins/sw-portfolio/portfolio.php:314
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:163
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:166
+#: sw_plugins/sw-testimonial/sw-testimonial.php:223
+#: sw_plugins/sw-testimonial/sw-testimonial.php:226 visual-map.php:226
+#: visual-map.php:229
+msgid "Number of Columns in 480px or less than:"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:231
+#: sw_plugins/sw-ourteam/sw-ourteam.php:638
+#: sw_plugins/sw-partner/sw-partner.php:255
+#: sw_plugins/sw-partner/sw-partner.php:796
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:172
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:688
+#: sw_plugins/sw-testimonial/sw-testimonial.php:232
+msgid "Speed"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:234
+#: sw_plugins/sw-partner/sw-partner.php:258
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:175
+#: sw_plugins/sw-testimonial/sw-testimonial.php:235
+msgid "Speed Of Slide"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:240
+#: sw_plugins/sw-ourteam/sw-ourteam.php:243
+#: sw_plugins/sw-ourteam/sw-ourteam.php:616
+#: sw_plugins/sw-partner/sw-partner.php:264
+#: sw_plugins/sw-partner/sw-partner.php:267
+#: sw_plugins/sw-partner/sw-partner.php:774
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:181
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:184
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:666
+#: sw_plugins/sw-testimonial/sw-testimonial.php:241
+#: sw_plugins/sw-testimonial/sw-testimonial.php:244
+msgid "Auto Play"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:249
+#: sw_plugins/sw-ourteam/sw-ourteam.php:252
+#: sw_plugins/sw-ourteam/sw-ourteam.php:631
+#: sw_plugins/sw-partner/sw-partner.php:273
+#: sw_plugins/sw-partner/sw-partner.php:276
+#: sw_plugins/sw-partner/sw-partner.php:789
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:190
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:193
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:681
+#: sw_plugins/sw-testimonial/sw-testimonial.php:259
+#: sw_plugins/sw-testimonial/sw-testimonial.php:262
+msgid "Interval"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:258
+#: sw_plugins/sw-ourteam/sw-ourteam.php:261
+#: sw_plugins/sw-ourteam/sw-ourteam.php:646
+#: sw_plugins/sw-partner/sw-partner.php:291
+#: sw_plugins/sw-partner/sw-partner.php:294
+#: sw_plugins/sw-partner/sw-partner.php:804
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:208
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:211
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:696
+#: sw_plugins/sw-testimonial/sw-testimonial.php:277
+#: sw_plugins/sw-testimonial/sw-testimonial.php:280
+msgid "Total Items Slided"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:267
+#: sw_plugins/sw-ourteam/sw-ourteam.php:270
+#: sw_plugins/sw-partner/sw-partner.php:282
+#: sw_plugins/sw-partner/sw-partner.php:285
+#: sw_plugins/sw-portfolio/portfolio.php:320
+#: sw_plugins/sw-portfolio/portfolio.php:323
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:199
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:202
+#: sw_plugins/sw-testimonial/sw-testimonial.php:268
+#: sw_plugins/sw-testimonial/sw-testimonial.php:271
+msgid "Layout"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:444
+#: sw_plugins/sw-partner/sw-partner.php:602
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:515
+#: sw_plugins/sw-testimonial/sw-testimonial.php:430
+msgid "Orderby"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:471
+#: sw_plugins/sw-partner/sw-partner.php:629
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:542
+#: sw_plugins/sw-testimonial/sw-testimonial.php:457 visual-map.php:90
+#: visual-map.php:163
+msgid "Descending"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:474
+#: sw_plugins/sw-partner/sw-partner.php:632
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:545
+#: sw_plugins/sw-testimonial/sw-testimonial.php:460 visual-map.php:91
+#: visual-map.php:164
+msgid "Ascending"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:488
+#: sw_plugins/sw-partner/sw-partner.php:653
+msgid "Number row per column:  "
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:508
+#: sw_plugins/sw-partner/sw-partner.php:645
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:558
+#: sw_plugins/sw-testimonial/sw-testimonial.php:473
+msgid "Excerpt length (in words): "
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:536
+#: sw_plugins/sw-partner/sw-partner.php:694
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:586
+msgid "Number of Columns on 992px to 1199px: "
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:556
+#: sw_plugins/sw-partner/sw-partner.php:714
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:606
+msgid "Number of Columns on 768px to 991px: "
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:576
+#: sw_plugins/sw-partner/sw-partner.php:734
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:626
+msgid "Number of Columns on 480px to 767px: "
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:596
+#: sw_plugins/sw-partner/sw-partner.php:754
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:646
+msgid "Number of Columns in 480px or less than: "
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:622
+#: sw_plugins/sw-partner/sw-partner.php:780
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:672
+msgid "False"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:625
+#: sw_plugins/sw-partner/sw-partner.php:783
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:675
+msgid "True"
+msgstr ""
+
+#: sw_plugins/sw-ourteam/sw-ourteam.php:664
+msgid "Theme 1"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:24
+msgid "Sw Partner Slider"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:30
+msgid "Sw Partner Slider widget"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:43
+msgid "Partner"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:44
+msgid "Partner Item"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:46
+msgid "Add New Partner Item"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:47
+msgid "Edit Partner Item"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:48
+msgid "New Partner Item"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:49
+msgid "View Partner Item"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:50
+msgid "Search Partner"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:73
+msgid "Categories Partner"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:77
+msgid "Partner Detail"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:86
+msgid "Blank"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:86
+msgid "Self"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:86
+msgid "Parent"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:86
+msgid "Top"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:88
+msgid "Partner Link"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:90
+msgid "Partner Link Target"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:106
+msgid "Partner Description"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:141
+msgid "All Categories Partner"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:146
+msgid "YA Partner Slider"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:150
+#: sw_plugins/sw-portfolio/portfolio.php:215
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:56
+msgid "My shortcodes"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:165
+msgid "Category Partner"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:168
+msgid "Select Categories "
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:298
+#: sw_plugins/sw-testimonial/sw-testimonial.php:284 visual-map.php:79
+#: visual-map.php:233 visual-map.php:276
+msgid "Extra class name"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:300
+#: sw_plugins/sw-testimonial/sw-testimonial.php:286 visual-map.php:81
+#: visual-map.php:235 visual-map.php:278
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:596
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:509
+msgid "Category ID"
+msgstr ""
+
+#: sw_plugins/sw-partner/sw-partner.php:811
+msgid "Extra Class"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:47
+msgctxt "post type general name"
+msgid "Portfolio"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:48
+msgctxt "post type singular name"
+msgid "Portfolio Item"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:49
+msgctxt "Portfolio item"
+msgid "Add New"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:50
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:51
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:52
+msgid "New Portfolio Item"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:53
+msgid "View Portfolio Item"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:54
+msgid "Search Portfolio"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:90
+msgid "Portfolio Meta"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:102
+#: sw_plugins/sw-portfolio/templates/single-portfolio.php:52
+msgid "Skill Needed"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:105
+#: sw_plugins/sw-portfolio/templates/single-portfolio.php:62
+msgid "URL"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:108
+#: sw_plugins/sw-portfolio/templates/single-portfolio.php:67
+msgid "Copyright"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:111
+msgid "Image Size Mansonry Layout"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:157
+msgid "All Category Portfolio"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:211
+#: sw_plugins/sw-portfolio/templates/portfolio-archive.php:13
+#: sw_plugins/sw-portfolio/templates/single-portfolio.php:13
+msgid "Portfolio"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:230
+#: sw_plugins/sw-portfolio/portfolio.php:233
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:503
+msgid "Description"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:239
+#: sw_plugins/sw-portfolio/templates/single-portfolio.php:57
+msgid "Category"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:242
+msgid "Select Categories"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:329
+msgid "Show Tab"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:332
+msgid "Show Tab Filter"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/portfolio.php:338
+#: sw_plugins/sw-portfolio/portfolio.php:341
+msgid "Show button loadmore"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/resize.php:42 sw_plugins/sw-portfolio/resize.php:173
+msgid "No image URL has been entered."
+msgstr ""
+
+#: sw_plugins/sw-portfolio/resize.php:76 sw_plugins/sw-portfolio/resize.php:208
+msgid "Image is BMP. Please use either JPG or PNG."
+msgstr ""
+
+#: sw_plugins/sw-portfolio/resize.php:235
+msgid "Failed to get $file_path information using \"@getimagesize\"."
+msgstr ""
+
+#: sw_plugins/sw-portfolio/resize.php:277
+msgid "Resize path invalid (GIF)"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/resize.php:281
+msgid "Resize path invalid (PNG)."
+msgstr ""
+
+#: sw_plugins/sw-portfolio/resize.php:289
+msgid "Resize path invalid (JPG)."
+msgstr ""
+
+#: sw_plugins/sw-portfolio/resize.php:304
+msgid "Failed to get $dest_file_name (resized image) info via @getimagesize"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/templates/portfolio-item.php:42
+msgid "All"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/templates/portfolio-item.php:132
+msgid "Show More"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/templates/portfolio-item.php:132
+msgid "All Items Loaded"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/templates/single-portfolio.php:44
+msgid "Project Description"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/templates/single-portfolio.php:48
+msgid "Project Detail"
+msgstr ""
+
+#: sw_plugins/sw-portfolio/templates/single-portfolio.php:108
+msgid "Related Project"
+msgstr ""
+
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:21
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:27
+msgid "Sw Responsive Slider Widget"
+msgstr ""
+
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:42
+msgid "All Links"
+msgstr ""
+
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:52
+msgid "YA Responsive Post Slider"
+msgstr ""
+
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:71
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:79
+msgid "Header Style"
+msgstr ""
+
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:75
+msgid "Header Style Default"
+msgstr ""
+
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:76
+msgid "Header Style 1"
+msgstr ""
+
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:77
+msgid "Header Style 2"
+msgstr ""
+
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:85 visual-map.php:60
+msgid "Category filter:"
+msgstr ""
+
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:92 visual-map.php:73
+#: visual-map.php:142
+msgid "Excerpt length (in words)"
+msgstr ""
+
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:94 visual-map.php:75
+#: visual-map.php:144
+msgid "Excerpt length (in words)."
+msgstr ""
+
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:714
+msgid "Most View"
+msgstr ""
+
+#: sw_plugins/sw-resp-post/sw-resp-slider.php:718
+msgid "Related Post"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:24
+#: sw_plugins/sw-testimonial/sw-testimonial.php:121
+msgid "Sw Testimonial Slider"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:30
+msgid "Sw Testimonial Slider widget"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:43
+msgid "Testimonial"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:44
+msgid "Testimonial Item"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:46
+msgid "Add New Item"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:49
+msgid "View Item"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:50
+msgid "Search"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:75
+msgid "Testimonial Options"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:86
+msgid "Author Name"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:88
+msgid "Author URL"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:90
+msgid "Author Infomation"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:151
+#: sw_plugins/sw-testimonial/sw-testimonial.php:154
+msgid "Exerpt Length"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:250
+#: sw_plugins/sw-testimonial/sw-testimonial.php:253
+msgid "Dots"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:480
+msgid "El_class"
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:488
+msgid "Style title "
+msgstr ""
+
+#: sw_plugins/sw-testimonial/sw-testimonial.php:514
+msgid "Theme1"
+msgstr ""
+
+#: visual-map.php:6
+msgid "Same window"
+msgstr ""
+
+#: visual-map.php:7
+msgid "New window"
+msgstr ""
+
+#: visual-map.php:9
+msgid "All Categories"
+msgstr ""
+
+#: visual-map.php:17
+msgid "Select A Menu"
+msgstr ""
+
+#: visual-map.php:26
+msgid "POSTS"
+msgstr ""
+
+#: visual-map.php:29 visual-map.php:123 visual-map.php:245
+msgid "Ya Shortcode"
+msgstr ""
+
+#: visual-map.php:32
+msgid "Display posts-seclect category"
+msgstr ""
+
+#: visual-map.php:36 visual-map.php:130 visual-map.php:252
+msgid "Widget title"
+msgstr ""
+
+#: visual-map.php:38
+msgid "Select style for widget title. Leave blank to use default widget title."
+msgstr ""
+
+#: visual-map.php:42
+msgid "Layout post style"
+msgstr ""
+
+#: visual-map.php:46
+msgid "The blog"
+msgstr ""
+
+#: visual-map.php:47
+msgid "Latest Blog"
+msgstr ""
+
+#: visual-map.php:48
+msgid "Indicators"
+msgstr ""
+
+#: visual-map.php:49
+msgid "2 column"
+msgstr ""
+
+#: visual-map.php:50
+msgid "Slideshow"
+msgstr ""
+
+#: visual-map.php:51
+msgid "Middle right"
+msgstr ""
+
+#: visual-map.php:52
+msgid "Blog style 2"
+msgstr ""
+
+#: visual-map.php:54
+msgid "Select different style posts."
+msgstr ""
+
+#: visual-map.php:67 visual-map.php:136
+msgid "Number of posts to show"
+msgstr ""
+
+#: visual-map.php:87 visual-map.php:160
+msgid "Order way"
+msgstr ""
+
+#: visual-map.php:93 visual-map.php:166
+#, php-format
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: visual-map.php:98 visual-map.php:171
+msgid "Order by"
+msgstr ""
+
+#: visual-map.php:102 visual-map.php:175
+msgid "Date"
+msgstr ""
+
+#: visual-map.php:103 visual-map.php:176
+msgid "ID"
+msgstr ""
+
+#: visual-map.php:104 visual-map.php:177
+msgid "Author"
+msgstr ""
+
+#: visual-map.php:106 visual-map.php:179
+msgid "Modified"
+msgstr ""
+
+#: visual-map.php:107 visual-map.php:180
+msgid "Random"
+msgstr ""
+
+#: visual-map.php:108 visual-map.php:181
+msgid "Comment count"
+msgstr ""
+
+#: visual-map.php:109 visual-map.php:182
+msgid "Menu order"
+msgstr ""
+
+#: visual-map.php:111 visual-map.php:184
+#, php-format
+msgid "Select how to sort retrieved posts. More at %s."
+msgstr ""
+
+#: visual-map.php:120
+msgid "Testimonial Slide"
+msgstr ""
+
+#: visual-map.php:126
+msgid "The tesminial on your site"
+msgstr ""
+
+#: visual-map.php:132 visual-map.php:254
+msgid "What text use as a widget title. Leave blank to use default widget title."
+msgstr ""
+
+#: visual-map.php:151
+msgid "Indicators Up"
+msgstr ""
+
+#: visual-map.php:152
+msgid "indicators"
+msgstr ""
+
+#: visual-map.php:153
+msgid "Slide Style 1"
+msgstr ""
+
+#: visual-map.php:154
+msgid "Slide Style 2"
+msgstr ""
+
+#: visual-map.php:156
+msgid "Chose template for testimonial"
+msgstr ""
+
+#: visual-map.php:242
+msgid "vertical mega menu"
+msgstr ""
+
+#: visual-map.php:248
+msgid "Display vertical mega menu"
+msgstr ""
+
+#: visual-map.php:260
+msgid "Category menu:"
+msgstr ""
+
+#: visual-map.php:267
+msgid "Theme shortcode want display"
+msgstr ""
+
+#: visual-map.php:270
+msgid "default"
+msgstr ""
+
+#: visual-map.php:272
+msgid "Select different style menu."
+msgstr ""

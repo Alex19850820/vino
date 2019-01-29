@@ -1,0 +1,628 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: premmerce-filter\n"
+"POT-Creation-Date: 2018-11-21 19:06+0200\n"
+"PO-Revision-Date: 2018-11-21 19:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: freemius\n"
+"X-Poedit-SearchPathExcluded-1: build\n"
+"X-Poedit-SearchPathExcluded-2: assets\n"
+"X-Poedit-SearchPathExcluded-3: vendor\n"
+
+#: src/Admin/Admin.php:93
+msgid "Please enable permalinks to use SEO rules"
+msgstr "Пожалуйста, включите постоянные ссылки для использования правил SEO"
+
+#: src/Admin/Admin.php:124 src/Admin/Admin.php:125
+msgid "Product filter"
+msgstr "Настройки фильтра"
+
+#: src/Admin/Admin.php:194
+msgid "Account"
+msgstr "Аккаунт"
+
+#: src/Admin/Admin.php:206
+msgid "Contact Us"
+msgstr "Свяжитесь с нами"
+
+#: src/Admin/Tabs/Attributes.php:65 views/admin/macros.php:19
+#: views/admin/tabs/attributes.php:17
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: src/Admin/Tabs/Attributes.php:100 src/Admin/Tabs/Taxonomy.php:70
+#: views/admin/tabs/attributes.php:80 views/admin/tabs/brands.php:45
+#: views/admin/tabs/taxonomy.php:44
+msgid "Display"
+msgstr "Отображать"
+
+#: src/Admin/Tabs/Attributes.php:101 src/Admin/Tabs/Taxonomy.php:71
+#: views/admin/tabs/attributes.php:80 views/admin/tabs/brands.php:45
+#: views/admin/tabs/taxonomy.php:44
+msgid "Hide"
+msgstr "Не отображать"
+
+#: src/Admin/Tabs/Attributes.php:105
+msgid "Checkbox"
+msgstr "Чекбокс"
+
+#: src/Admin/Tabs/Attributes.php:106
+msgid "Radio"
+msgstr "Радио кнопка"
+
+#: src/Admin/Tabs/Attributes.php:107
+msgid "Select"
+msgstr "Выпадающий список"
+
+#: src/Admin/Tabs/Attributes.php:113 src/Admin/Tabs/SeoSettings.php:46
+#: src/Admin/Tabs/Settings.php:129
+msgid "Default"
+msgstr "По умолчанию"
+
+#: src/Admin/Tabs/Attributes.php:114
+msgid "Dropdown"
+msgstr "Випадающий список"
+
+#: src/Admin/Tabs/Attributes.php:115
+msgid "Scroll"
+msgstr "Прокрутка"
+
+#: src/Admin/Tabs/Attributes.php:116
+msgid "Scroll + Dropdown"
+msgstr "Випадающий список + Прокрутка"
+
+#: src/Admin/Tabs/Attributes.php:121 src/Admin/Tabs/Taxonomy.php:69
+msgid "Bulk Actions"
+msgstr "Действия"
+
+#: src/Admin/Tabs/Attributes.php:122 views/admin/tabs/attributes.php:36
+#: views/admin/tabs/brands.php:26 views/admin/tabs/taxonomy.php:25
+msgid "Visibility"
+msgstr "Видимость"
+
+#: src/Admin/Tabs/Attributes.php:123 views/admin/tabs/attributes.php:32
+msgid "Field type"
+msgstr "Тип поля"
+
+#: src/Admin/Tabs/Attributes.php:124 views/admin/tabs/attributes.php:33
+msgid "Display as"
+msgstr "Отображать как"
+
+#: src/Admin/Tabs/Attributes.php:204
+msgid "Color"
+msgstr "Цвет"
+
+#: src/Admin/Tabs/Attributes.php:205 src/Seo/RulesTable.php:108
+msgid "Label"
+msgstr "Метка"
+
+#: src/Admin/Tabs/Attributes.php:206
+msgid "Slider"
+msgstr "Слайдер"
+
+#: src/Admin/Tabs/Cache.php:36 views/admin/tabs/cache.php:9
+msgid "Cache"
+msgstr "Кэш"
+
+#: src/Admin/Tabs/PermalinkSettings.php:44
+#: src/Admin/Tabs/PermalinkSettings.php:126
+msgid "Permalinks"
+msgstr "Постоянные ссылки"
+
+#: src/Admin/Tabs/PermalinkSettings.php:48
+msgid "Use permalinks"
+msgstr "Использовать постоянные ссылки"
+
+#: src/Admin/Tabs/PermalinkSettings.php:53
+msgid "Attribute prefix"
+msgstr "Префикс атрибута"
+
+#: src/Admin/Tabs/PermalinkSettings.php:58
+msgid "Value separator"
+msgstr "Разделитель значений"
+
+#: src/Admin/Tabs/PermalinkSettings.php:72
+#, php-format
+msgid "%s prefix"
+msgstr "%s префикс"
+
+#: src/Admin/Tabs/PermalinkSettings.php:111
+msgid "Prefixes should be unique"
+msgstr "Префиксы должны отличаться"
+
+#: src/Admin/Tabs/SeoRules.php:73
+msgid "Rule created"
+msgstr "Правило создано"
+
+#: src/Admin/Tabs/SeoRules.php:89
+msgid "Rule updated"
+msgstr "Правило обновлено"
+
+#: src/Admin/Tabs/SeoRules.php:155
+msgid "Generation completed"
+msgstr "Генерация завершена"
+
+#: src/Admin/Tabs/SeoRules.php:185
+msgid "Rules are updated"
+msgstr "Правила обновлены"
+
+#: src/Admin/Tabs/SeoRules.php:333
+msgid "SEO Rules"
+msgstr "Правила SEO"
+
+#: src/Admin/Tabs/SeoSettings.php:50
+msgid "Use default seo settings"
+msgstr "Использовать настройки seo по умолчанию"
+
+#: src/Admin/Tabs/SeoSettings.php:55
+msgid "Default Metadata"
+msgstr "Метаданные по умолчанию"
+
+#: src/Admin/Tabs/SeoSettings.php:58
+msgid ""
+"This settings are used to setup default meta data for filter pages that are "
+"not defined in rules"
+msgstr ""
+"Эти настройки используются для установки метаданных по умолчанию для страниц "
+"фильтров, которые не определены в правилах"
+
+#: src/Admin/Tabs/SeoSettings.php:66 views/admin/macros.php:91
+msgid "H1"
+msgstr "H1"
+
+#: src/Admin/Tabs/SeoSettings.php:71
+msgid "Document title"
+msgstr "Заголовок документа"
+
+#: src/Admin/Tabs/SeoSettings.php:76 views/admin/macros.php:105
+msgid "Meta description"
+msgstr "Мета описание"
+
+#: src/Admin/Tabs/SeoSettings.php:81 views/admin/macros.php:16
+msgid "Category description"
+msgstr "Описание категории"
+
+#: src/Admin/Tabs/SeoSettings.php:109
+msgid "SEO Settings"
+msgstr "Настройки SEO"
+
+#: src/Admin/Tabs/Settings.php:56
+msgid "Behavior"
+msgstr "Поведение"
+
+#: src/Admin/Tabs/Settings.php:60
+msgid "Hide empty terms"
+msgstr "Спрятать пустые значения"
+
+#: src/Admin/Tabs/Settings.php:64
+msgid "Show price filter"
+msgstr "Показывать фильтр по цене"
+
+#: src/Admin/Tabs/Settings.php:68
+#, php-format
+msgid "Show \"%s\" button"
+msgstr "Показывать кнопку \"%s\""
+
+#: src/Admin/Tabs/Settings.php:68 views/frontend/active_filters.php:55
+msgid "Reset filter"
+msgstr "Сбросить фильтр"
+
+#: src/Admin/Tabs/Settings.php:73
+msgid "Show filter on pages"
+msgstr "Показывать фильтр на страницах"
+
+#: src/Admin/Tabs/Settings.php:77
+msgid "Product category"
+msgstr "Категория товаров"
+
+#: src/Admin/Tabs/Settings.php:81
+msgid "Tag"
+msgstr "Тег"
+
+#: src/Admin/Tabs/Settings.php:85 views/admin/tabs/brands.php:25
+msgid "Brand"
+msgstr "Бренд"
+
+#: src/Admin/Tabs/Settings.php:89 views/admin/tabs/seo.php:28
+msgid "Search"
+msgstr "Поиск"
+
+#: src/Admin/Tabs/Settings.php:93
+msgid "Store"
+msgstr "Магазин"
+
+#: src/Admin/Tabs/Settings.php:97 views/admin/tabs/attributes.php:34
+msgid "Attribute"
+msgstr "Атрибут"
+
+#: src/Admin/Tabs/Settings.php:102 views/admin/seo/generate-rules.php:41
+#: views/admin/seo/generate-rules.php:66
+msgid "Taxonomies"
+msgstr "Таксономии"
+
+#: src/Admin/Tabs/Settings.php:105
+msgid "Use taxonomies"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:109
+msgid "Choose taxonomies used by filter."
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:115
+msgid "AJAX"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:119
+msgid "Load deferred"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:124
+msgid "Styles"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:127
+msgid "Filter style"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:139
+msgid "Use ajax"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:144
+msgid "Woocommerce content"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:145
+msgid "Product archive"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:156
+msgid "Ajax Strategy"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:158
+msgid ""
+"Choose the strategy for replacing content during ajax product filtering."
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:160
+msgid ""
+"<b>Woocommerce content</b> strategy - has better performance and supported "
+"most of woocommerce themes, where archive page has default woocommerce "
+"layout."
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:162
+msgid ""
+"<b>Product archive</b> strategy - replaces all content placed in product "
+"archive template except footer and header."
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:178
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/Filter/Items/Types/PriceFilter.php:48
+msgid "Filter by price"
+msgstr "Фильтровать по цене"
+
+#: src/Filter/Items/Types/PriceFilter.php:81
+#, php-format
+msgid "Min %s"
+msgstr "Мин %s"
+
+#: src/Filter/Items/Types/PriceFilter.php:87
+#, php-format
+msgid "Max %s"
+msgstr "Макс %s"
+
+#: src/Filter/Items/Types/SliderFilter.php:68
+#, php-format
+msgid "%s from %s"
+msgstr "%s от %s"
+
+#: src/Filter/Items/Types/SliderFilter.php:75
+#, php-format
+msgid "%s to %s"
+msgstr "%s до %s"
+
+#: src/FilterPlugin.php:131
+#, php-format
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr "Для работы плагина %s нужен плагин %s"
+
+#: src/Seo/RulesTable.php:107 views/admin/seo/form.php:31
+msgid "Category"
+msgstr "Категория"
+
+#: src/Seo/RulesTable.php:109
+msgid "Enabled"
+msgstr "Включено"
+
+#: src/Seo/RulesTable.php:122 views/admin/seo/table/column-h1.php:23
+msgid "Delete"
+msgstr "Удалить"
+
+#: src/Seo/RulesTable.php:123 views/admin/macros.php:123
+msgid "Enable"
+msgstr "Включить"
+
+#: src/Seo/RulesTable.php:124
+msgid "Disable"
+msgstr "Отключить"
+
+#: src/Seo/RulesTable.php:187
+msgid "No rules found."
+msgstr "Правила не найдены."
+
+#: src/Seo/RulesTable.php:242
+msgid "Filter"
+msgstr "Фильтр"
+
+#: src/Seo/RulesTable.php:265
+msgid "Filter by category"
+msgstr "Фильтр по категориям"
+
+#: src/Seo/SeoModel.php:157
+msgid "The same rule already exists"
+msgstr "Это же правило уже существует"
+
+#: src/Seo/SeoModel.php:161
+msgid "Terms are required"
+msgstr "Выберите значения"
+
+#: src/Seo/SeoModel.php:164
+msgid "Category is required"
+msgstr "Категория обязательна"
+
+#: src/Widget/ActiveFilterWidget.php:15
+msgid "Premmerce active filters"
+msgstr "Premmerce активние фильтры "
+
+#: src/Widget/ActiveFilterWidget.php:17
+msgid "Product attributes active filters"
+msgstr "Активные фильтры атрибутов товаров"
+
+#: src/Widget/ActiveFilterWidget.php:45
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Оценка %s из 5"
+
+#: src/Widget/FilterWidget.php:17
+msgid "Premmerce filter"
+msgstr "Premmerce фильтр"
+
+#: src/Widget/FilterWidget.php:19
+msgid "Product attributes filter"
+msgstr "Фильтр товаров по атрибутах"
+
+#: views/admin/macros.php:13
+msgid "Category name"
+msgstr "Название категории"
+
+#: views/admin/macros.php:22 views/admin/tabs/brands.php:11
+msgid "Brands"
+msgstr "Бренды"
+
+#: views/admin/macros.php:25
+msgid "Min price"
+msgstr "Минимальная цена"
+
+#: views/admin/macros.php:28
+msgid "Max price"
+msgstr "Максимальная цена"
+
+#: views/admin/macros.php:31
+msgid "Number of products"
+msgstr "Количество товаров"
+
+#: views/admin/macros.php:45 views/admin/seo/generate-rules.php:45
+#: views/admin/seo/generate-rules.php:70
+msgid "Select taxonomy"
+msgstr "Выберите таксономию"
+
+#: views/admin/macros.php:58 views/admin/macros.php:63
+msgid "Select term"
+msgstr "Выберите значение"
+
+#: views/admin/macros.php:98
+msgid "Title"
+msgstr "Название "
+
+#: views/admin/macros.php:114
+msgid "Description"
+msgstr "Описание "
+
+#: views/admin/macros.php:126
+msgid "Enable this rule."
+msgstr "Включить это правило."
+
+#: views/admin/options.php:12
+msgid "Premmerce WooCommerce Product Filter"
+msgstr "Premmerce WooCommerce Product Filter"
+
+#: views/admin/seo/form.php:15 views/admin/seo/form.php:67
+msgid "Add new rule"
+msgstr "Добавить новое правило"
+
+#: views/admin/seo/form.php:19 views/admin/seo/generate-rules.php:14
+msgid "Back"
+msgstr "Назад"
+
+#: views/admin/seo/form.php:22
+msgid "Visit page"
+msgstr "Посетить страницу"
+
+#: views/admin/seo/form.php:27 views/admin/seo/form.php:69
+msgid "Update rule"
+msgstr "Обновить правило"
+
+#: views/admin/seo/form.php:38
+msgid "Taxonomy"
+msgstr "Таксономия"
+
+#: views/admin/seo/form.php:39
+msgid "Term"
+msgstr "Значение"
+
+#: views/admin/seo/form.php:58
+msgid "Add"
+msgstr "Добавить"
+
+#: views/admin/seo/generate-rules.php:26
+msgid "Generate rules"
+msgstr "Сгенерировать правила"
+
+#: views/admin/seo/generate-rules.php:28
+msgid "Categories"
+msgstr "Категории"
+
+#: views/admin/seo/generate-rules.php:31
+msgid "Select category"
+msgstr "Выберите категорию"
+
+#: views/admin/seo/generate-rules.php:55
+msgid "Add taxonomy"
+msgstr "Добавить таксономию"
+
+#: views/admin/seo/generate-rules.php:59
+msgid "Generate"
+msgstr "Сгенерировать"
+
+#: views/admin/seo/table/column-h1.php:17
+msgid "Edit"
+msgstr "Редактировать"
+
+#: views/admin/seo/table/column-h1.php:28
+msgid "View"
+msgstr "Просмотр"
+
+#: views/admin/tabs/actions.php:12
+msgid "Select bulk action"
+msgstr "Выберите массовое действие"
+
+#: views/admin/tabs/actions.php:27
+msgid "Apply"
+msgstr "Применить"
+
+#: views/admin/tabs/attributes.php:61
+msgid "Setup colors"
+msgstr "Настроить цвета"
+
+#: views/admin/tabs/attributes.php:92 views/admin/tabs/brands.php:56
+#: views/admin/tabs/taxonomy.php:55
+msgid "No items found"
+msgstr "Значений не найдено"
+
+#: views/admin/tabs/attributes.php:102
+msgid "Save"
+msgstr "Сохранить"
+
+#: views/admin/tabs/cache.php:15
+msgid "Clear cache"
+msgstr "Очистить кэш"
+
+#: views/admin/tabs/seo.php:15
+msgid "Generate Rules"
+msgstr "Сгенерировать правила"
+
+#: views/admin/tabs/seo.php:18
+msgid "Update paths"
+msgstr "Обновить пути"
+
+#: views/admin/tabs/taxonomy.php:24
+msgid "Terms"
+msgstr "Значения"
+
+#: views/frontend/types/select.php:2
+#, php-format
+msgid "Any %s"
+msgstr "Любой %s"
+
+#~ msgid "Pricing"
+#~ msgstr "Цены"
+
+#~ msgid "Brand prefix"
+#~ msgstr "Префикс бренда"
+
+#~ msgid "Brand and Attribute prefixes should be different"
+#~ msgstr "Префикс бренда и атрибута должен отличаться"
+
+#~ msgid "Warm up cache"
+#~ msgstr "Перезаписать кэш"
+
+#~ msgid "Rules"
+#~ msgstr "Правила"
+
+#~ msgid "Rule"
+#~ msgstr "Правило"
+
+#~ msgid "Seo Rules"
+#~ msgstr "SEO Правила"
+
+#~ msgid "Seo Settings"
+#~ msgstr "Настройки Seo"
+
+#~ msgid "Display type"
+#~ msgstr "Тип отображения"
+
+#~ msgid "Displayed"
+#~ msgstr "Отображается"
+
+#~ msgid "Hidden"
+#~ msgstr "Скрытый"
+
+#~ msgid "Brand and Slug prefixes should be different"
+#~ msgstr "Brand and Attribute prefixes should be different"
+
+#~ msgid "Slug prefix"
+#~ msgstr "Префикс слага"
+
+#~ msgid "Or separator"
+#~ msgstr "Разделитель"
+
+#~ msgid "Reload cache"
+#~ msgstr "Перезаписать кэш"
+
+#~ msgid "This plugin requires %s plugin to be active!"
+#~ msgstr "Для этого плагина необходим плагин %s!"
+
+#~ msgid ""
+#~ "For correct work of filter, please, reload the cache after the products "
+#~ "or attributes have been changed."
+#~ msgstr ""
+#~ "Для правильной работы фильтра, пожалуйста, перезагрузите кеш после того, "
+#~ "как были изменены товары или атрибуты."
+
+#~ msgid "Query type"
+#~ msgstr "Тип запроса"
+
+#~ msgid "Filter type"
+#~ msgstr "Тип відображення"
+
+#~ msgid "Filter attributes"
+#~ msgstr "Атрибуты фильтра"
+
+#~ msgid "Filter brands"
+#~ msgstr "Бренды фильтра"
+
+#~ msgid "Works only with 'premmerce-brands' plugin"
+#~ msgstr "Работает только с установленным плагином 'premmerce-brands'"
+
+#~ msgid "Filter settings"
+#~ msgstr "Настройки фильтра"
+
+#~ msgid "Type"
+#~ msgstr "Тип"

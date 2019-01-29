@@ -1,0 +1,215 @@
+.header-style12 {
+    .yt-header-top {
+        height: 51px;
+        border-bottom: 1px solid #e5e5e5;
+         .block-action-header {
+              float: left;
+              ul > li > a {
+                   padding: 14px 25px 14px 25px;
+                   font-size: 14px;
+                    font-weight: bold;
+                    color: #999;
+                 &:before {
+                    display: none;
+                 }
+                 &:hover {
+                    color:@color;
+                 }
+
+              }
+            &.language-switcher {
+               ul.nav > li {
+                    > a {
+                        padding: 14px 25px 14px 0;
+                        border-right: 1px solid #e5e5e5;
+                    }
+                    ul > li a:hover,ul > li.active a {
+                        color:#fff;
+                        background: @color;
+                    }
+                }
+            }
+          }
+        .sl-header-text {
+            .flytheme_social {
+                padding: 0 13px;
+                border-right: 1px solid #e5e5e5;
+            } 
+            ul.main-social {
+                list-style: none;
+                margin-left: 0;
+                li {
+                    float: left;
+                    a {
+                        .fa {
+                            font-size: 14px;
+                            padding: 12px 8px 14px;
+                            color:#999;
+                        }
+                        &:hover {
+                            .fa {
+                                color: @color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .sl-login {
+            .top-login {
+                ul {
+                    margin-left: 0;
+                    list-style: none;
+                    margin-bottom: 0;
+                    > li {
+                        padding: 14px 0px 14px 26px;
+                        a {
+                            font-size: 14px;
+                            color:#999;
+                            &:hover {
+                                color:@color;
+                            }
+                        }
+                    }
+                }
+                .div-logined {
+                    padding: 14px 0px 14px 26px;
+                    a {
+                        font-size: 14px;
+                        color:#999;
+                        &:hover {
+                            color:@color;
+                        }
+                    } 
+                }
+            }
+        }
+    }
+    .yt-header-middle {
+        height: 121px;
+        padding: 27px 0;
+        background: #fff;
+        position: relative;
+        &:after {
+            content: "";
+            width: 100%;
+            height: 24px;
+            background: url('../assets/img/boderindex12.png') no-repeat;
+            left: 0;
+            right: 0;
+            background-size: contain;
+            position: absolute;
+            bottom: -24px;
+        }
+    }
+    .yt-megamenu {
+        margin-top: 0px;
+    }
+    .yt-header-under {
+        padding: 0;
+        width: 595px;
+        .yt-menu {
+            display: block;
+            .navbar-inverse > ul > li {
+                position: relative;
+                &.active,&:hover {
+                    > a span.menu-title {
+                        color:@color;
+                    }
+                 
+                    &:after {
+                        content: "";
+                        background: @color;
+                        width: 20px;
+                        height: 3px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        margin-left: -10px;
+                    }
+                    
+                }
+                &:first-child {
+                    > a {
+                         padding: 23px 25px 49px 25px
+                    }
+                }
+                > a {
+                    color: #111;
+                    padding: 23px 25px 49px 25px;
+                    &.dropdown-toggle:before {
+                        display: none;
+                    }
+                    span.menu-title {
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+
+                }
+
+            }
+        }
+    }
+    .phone-icon-search {
+        display: inline-block !important;
+        margin: 0px 6px 0 0px;
+        font-size: 20px;
+        color: #111;
+        padding: 1px;
+        cursor: pointer;
+        padding: 22px 10px 52px;
+    }
+    .top-header-sidebar-search {
+        position: relative;
+        .sm-serachbox-pro {
+            display: none;
+            min-width: 370px;
+            z-index: 999;
+            right: 0px;
+            top: 62px;
+            position: absolute;
+            background: #fff;
+            padding: 10px;
+            box-shadow: 0 0 2px #ddd;
+            .form-search {width: 100%;}
+        }
+
+    }
+    .top-form-minicart {
+        padding: 0;
+        border:0;
+        .top-minicart {
+            border:0;
+            a {
+                width: 24px;
+                height: 24px;
+                display: inline-block;
+                border-radius: 50%;
+                background-color: @color;
+                overflow: hidden;
+                position: absolute;
+                top: 7px;
+                left: 36%;
+                margin-left: 7px;
+                line-height: 27px;
+                font-size: 12px;
+                font-weight: bold;
+                color: #fff;
+                text-align: center;
+                z-index: 3;
+            }
+            &:after {
+                background: none;
+                content: "\f291";
+                font-family: 'FontAwesome';
+                font-size: 20px;
+                top:52%;
+            }
+
+        }
+        .wrapp-minicart {
+           top: 62px;
+        }
+
+    }
+}

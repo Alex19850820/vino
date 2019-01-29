@@ -1,0 +1,573 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-04-26 12:39+0300\n"
+"PO-Revision-Date: 2018-04-26 12:40+0300\n"
+"Last-Translator: \n"
+"Language-Team: Maxim Glazunov <djdiplomat477@gmail.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: yml-for-yandex-market-pro.php\n"
+
+#: yml-for-yandex-market-pro.php:142
+msgid "Yml for Yandex Market is not active"
+msgstr "Yml for Yandex Market отключен"
+
+#: yml-for-yandex-market-pro.php:385
+msgid "Export only"
+msgstr "Экспортировать только"
+
+#: yml-for-yandex-market-pro.php:385
+msgid "Exclude"
+msgstr "Исключить"
+
+#: yml-for-yandex-market-pro.php:385
+msgid "products from these categories and tags"
+msgstr "продукты из этих категорий и тегов"
+
+#: yml-for-yandex-market-pro.php:388
+msgid "Category"
+msgstr "Категории"
+
+#: yml-for-yandex-market-pro.php:396
+msgid "Tags"
+msgstr "Теги"
+
+#: yml-for-yandex-market-pro.php:409
+msgid "Use tags as categories"
+msgstr "Использовать теги в качестве категорий"
+
+#: yml-for-yandex-market-pro.php:412
+msgid ""
+"If the product does not have categories, the tags will be used as categories"
+msgstr "Если у продукта нет категорий, теги будут использоваться как категории"
+
+#: yml-for-yandex-market-pro.php:416
+msgid "Number of images"
+msgstr "Число картинок"
+
+#: yml-for-yandex-market-pro.php:419
+msgid ""
+"The maximum number of images that will be displayed in the feed from the "
+"product gallery"
+msgstr ""
+"Максимальное количество изображений, которые будут отображаться в фиде из "
+"Галереи товара"
+
+#: yml-for-yandex-market-pro.php:419
+msgid "Maximum 9"
+msgstr "Максимум 9"
+
+#: yml-for-yandex-market-pro.php:423
+msgid "Do not unload the image of the main product"
+msgstr "Не выгружать главное изображение товара"
+
+#: yml-for-yandex-market-pro.php:426
+msgid ""
+"The image specified as the product's main image will not be included in the "
+"feed"
+msgstr ""
+"Изображение, указанное в качестве основного изображения товара, не будет "
+"включено в фид"
+
+#: yml-for-yandex-market-pro.php:451 yml-for-yandex-market-pro.php:488
+msgid "Sizes"
+msgstr "Размер"
+
+#: yml-for-yandex-market-pro.php:454 yml-for-yandex-market-pro.php:461
+#: yml-for-yandex-market-pro.php:491 yml-for-yandex-market-pro.php:498
+msgid "None"
+msgstr "Нет"
+
+#: yml-for-yandex-market-pro.php:459 yml-for-yandex-market-pro.php:496
+msgid "Required attribute"
+msgstr "Обязательный атрибут"
+
+#: yml-for-yandex-market-pro.php:459 yml-for-yandex-market-pro.php:496
+msgid "substitute from"
+msgstr "подставлять из"
+
+#: yml-for-yandex-market-pro.php:466 yml-for-yandex-market-pro.php:503
+msgid "In the absence of a substitute"
+msgstr "Если отсутствует, то подставить"
+
+#: yml-for-yandex-market-pro.php:484 yml-for-yandex-market-pro.php:521
+msgid "Optional element"
+msgstr "Необязательный элемент"
+
+#: yml-for-yandex-market-pro.php:484 yml-for-yandex-market-pro.php:521
+msgid "This element indicates the dimension grid"
+msgstr "Этот элемент указывает размерную сетку"
+
+#: yml-for-yandex-market-pro.php:484 yml-for-yandex-market-pro.php:488
+#: yml-for-yandex-market-pro.php:521
+msgid "A list of possible values"
+msgstr "Список возможных значений"
+
+#: yml-for-yandex-market-pro.php:488
+msgid "In some cases you may need to specify 2 sizes for a single product"
+msgstr ""
+"В некоторых случаях вам может потребоваться указать 2 размера для одного "
+"продукта"
+
+#~ msgid ""
+#~ "Products from these categories and tags are will not be add to the feed"
+#~ msgstr "Продукты из этих категорий и тегов не будут добавлены в фид"
+
+#~ msgid ""
+#~ "This element indicates the country where the product was manufactured"
+#~ msgstr "Элемент предназначен для указания страны производства товара"
+
+#~ msgid "Please help make the plugin better"
+#~ msgstr "Пожалуйста, помогите сделать плагин лучше"
+
+#~ msgid "answering 6 questions"
+#~ msgstr "ответив на 6 вопросов"
+
+#~ msgid "Exporter Yandex Market"
+#~ msgstr "Экспортер Yandex Market"
+
+#~ msgid "Main parameters"
+#~ msgstr "Основные параметры"
+
+#~ msgid "Automatic file creation"
+#~ msgstr "Автоматическое создание файла"
+
+#~ msgid "Off"
+#~ msgstr "Отключено"
+
+#~ msgid "Hourly"
+#~ msgstr "Раз в час"
+
+#~ msgid "Every six hours"
+#~ msgstr "Каждые 6 часов"
+
+#~ msgid "Twice a day"
+#~ msgstr "2 раза в день"
+
+#~ msgid "Daily"
+#~ msgstr "Раз в день"
+
+#~ msgid "The refresh interval on your feed"
+#~ msgstr "Интервал обновления вашего фида"
+
+#~ msgid "Whot export"
+#~ msgstr "Что экспортировать"
+
+#~ msgid "Simple & Variable products"
+#~ msgstr "Вариативные и обычные товары"
+
+#~ msgid "Only simple products"
+#~ msgstr "Только обычные товары"
+
+#~ msgid "Selected"
+#~ msgstr "Только выбранные"
+
+#~ msgid "Not selected"
+#~ msgstr "Всё, кроме выбранных"
+
+#~ msgid "Description of the product"
+#~ msgstr "Описание товара"
+
+#~ msgid "Excerpt description"
+#~ msgstr "Краткое описание"
+
+#~ msgid "Full description"
+#~ msgstr "Полное описание"
+
+#~ msgid "The source of the description"
+#~ msgstr "Источник описания товара"
+
+#~ msgid "Shop name"
+#~ msgstr "Название магазина"
+
+#~ msgid "Required element"
+#~ msgstr "Обязательный элемент"
+
+#~ msgid "The short name of the store should not exceed 20 characters"
+#~ msgstr "Короткое название магазина, должно содержать не более 20 символов"
+
+#~ msgid "Company name"
+#~ msgstr "Наименование компании"
+
+#~ msgid "Full name of the company that owns the store"
+#~ msgstr "Полное наименование компании, владеющей магазином"
+
+#~ msgid "Adult Market"
+#~ msgstr "Магазин для взрослых"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "Step of export"
+#~ msgstr "Шаг экспорта"
+
+#~ msgid "The value affects the speed of file creation"
+#~ msgstr "Значение влияет на скорость создания YML фида"
+
+#~ msgid ""
+#~ "If you have any problems with the generation of the file - try to reduce "
+#~ "the value in this field"
+#~ msgstr ""
+#~ "Если у вас возникли проблемы с генерацией файла - попробуйте уменьшить "
+#~ "значение в данном поле"
+
+#~ msgid "More than 500 can only be installed on powerful servers"
+#~ msgstr "Более 500 можно устанавливать только на мощных серверах"
+
+#~ msgid "Price and delivery"
+#~ msgstr "Цена и доставка"
+
+#~ msgid "Delivery"
+#~ msgstr "Доставка"
+
+#~ msgid "True"
+#~ msgstr "Да"
+
+#~ msgid "False"
+#~ msgstr "Нет"
+
+#~ msgid ""
+#~ "The delivery item must be set to false if the item is prohibited to sell "
+#~ "remotely (jewelry, medicines)"
+#~ msgstr ""
+#~ "Элемент delivery должен обязательно иметь значение false, если товар "
+#~ "запрещено продавать дистанционно (ювелирные изделия, лекарственные "
+#~ "средства)."
+
+#~ msgid "Read more on Yandex"
+#~ msgstr "Прочитать подробности на Яндексе"
+
+#~ msgid "Delivery cost"
+#~ msgstr "Стоимость доставки"
+
+#~ msgid "Delivery days"
+#~ msgstr "Срок доставки"
+
+#~ msgid "Pickup"
+#~ msgstr "Самовывоз"
+
+#~ msgid "Option to get order from pickup point"
+#~ msgstr "Возможность самовывоза из пунктов выдачи"
+
+#~ msgid "Price from"
+#~ msgstr "Цена от"
+
+#~ msgid "Apply the setting Price from"
+#~ msgstr "Применить параметр Цена от ко всем товарам"
+
+#~ msgid "Example"
+#~ msgstr "Пример"
+
+#~ msgid "Old price"
+#~ msgstr "Старая цена"
+
+#~ msgid ""
+#~ "In oldprice indicates the old price of the goods, which must necessarily "
+#~ "be higher than the new price (price)"
+#~ msgstr ""
+#~ "В oldprice указывается старая цена товара, которая обязательно должна "
+#~ "быть выше новой цены (price)"
+
+#~ msgid "Barcode"
+#~ msgstr "Штрихкод"
+
+#~ msgid "Model"
+#~ msgstr "Модель"
+
+#~ msgid "Vendor"
+#~ msgstr "Производитель"
+
+#~ msgid "Country of origin"
+#~ msgstr "Страна производитель"
+
+#~ msgid "Manufacturer warrant"
+#~ msgstr "Гарантия производителя"
+
+#~ msgid ""
+#~ "This element is used for products that have an official manufacturer's "
+#~ "warranty"
+#~ msgstr ""
+#~ "Элемент предназначен для отметки товаров, имеющих официальную гарантию "
+#~ "производителя"
+
+#~ msgid "Product does not have an official warranty"
+#~ msgstr "Товар не имеет официальной гарантии"
+
+#~ msgid "Product has an official warranty"
+#~ msgstr "Товар имеет официальную гарантию"
+
+#~ msgid "Sales notes"
+#~ msgstr "Примечание"
+
+#~ msgid "Sales notes will be added to all items, if you complete this field"
+#~ msgstr "Sales notes будет добавлен ко всем товарам, если заполнить это поле"
+
+#~ msgid "Attention!"
+#~ msgstr "Внимание!"
+
+#~ msgid ""
+#~ "The text may be up to 50 characters in length. Also in the item is "
+#~ "forbidden to specify the terms of delivery and price reduction (discount "
+#~ "on merchandise)"
+#~ msgstr ""
+#~ "Не более 50 символов. Также в элементе запрещено указывать условия "
+#~ "доставки и снижение цены (скидку на товар)"
+
+#~ msgid "Include these attributes in the values Param"
+#~ msgstr "Включить эти атрибуты в фид"
+
+#~ msgid "Store"
+#~ msgstr "Запас"
+
+#~ msgid "true"
+#~ msgstr "да"
+
+#~ msgid "The product can be purchased in retail stores"
+#~ msgstr "Товар можно купить без предварительного заказа"
+
+#~ msgid "false"
+#~ msgstr "нет"
+
+#~ msgid "the product cannot be purchased in retail stores"
+#~ msgstr "товар нельзя купить без предварительного заказа"
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "Click to save the settings"
+#~ msgstr "Нажмите, чтобы сохранить настройки"
+
+#~ msgid "Generate your 1st YML feed!"
+#~ msgstr "Создайте ваш 1-й YML фид!"
+
+#~ msgid ""
+#~ "In order to do that, select another menu entry (which differs from \"off"
+#~ "\") in the box called \"Automatic file creation\". You can also change "
+#~ "values in other boxes if necessary, then press \"Save\"."
+#~ msgstr ""
+#~ "Для этого в поле \"Автоматическое создание файла\" выставите значение, "
+#~ "отличное от значения \"отключено\", при необходимости измените значение "
+#~ "других полей и нажмите \"Сохранить\"."
+
+#~ msgid ""
+#~ "After 1-7 minutes (depending on the number of products), the feed will be "
+#~ "generated and a link will appear instead of this message."
+#~ msgstr ""
+#~ "Через 1 - 7 минут (зависит от числа товаров), фид будет сгенерирован и "
+#~ "вместо данного сообщения появится ссылка."
+
+#~ msgid ""
+#~ "We are working on automatic file creation. YML will be developed soon."
+#~ msgstr ""
+#~ "Идет автоматическое создание файла. Yml-фид в скором времени будет создан."
+
+#~ msgid "Link to your feed"
+#~ msgstr "Ссылка на ваш фид"
+
+#~ msgid "Your YML feed here"
+#~ msgstr "Ваш фид здесь"
+
+#~ msgid "Generated"
+#~ msgstr "Сгенерирован"
+
+#~ msgid ""
+#~ "By clicking on \"Save\" you will overwrite the upload file for Yandex "
+#~ "Market."
+#~ msgstr "Нажав «Сохранить», вы перезапишете YML для Yandex Market."
+
+#~ msgid ""
+#~ "Please note that Yandex Market checks YML no more than 3 times a day! "
+#~ "This means that the changes on the Yandex Market are not instantaneous!"
+#~ msgstr ""
+#~ "Обратите внимание, что Yandex Market проверяет YML не чаще 3-х раз в "
+#~ "день! Это означает, что изменения на Yandex Market не мгновенны!"
+
+#~ msgid "Please support the project!"
+#~ msgstr "Пожалуйста, поддержите проект!"
+
+#~ msgid "Thank you for using the plugin"
+#~ msgstr "Спасибо за использование плагина"
+
+#~ msgid "If this plugin useful to you, please support the project one way"
+#~ msgstr "Если этот плагин полезен вам, пожалуйста, поддержите проект"
+
+#~ msgid "Leave a comment on the plugin page"
+#~ msgstr "Оставьте комментарий на странице плагина"
+
+#~ msgid "Support the project financially. Even $1 is a help!"
+#~ msgstr "Поддержите проект деньгами. Даже 50 рублей - это помощь!"
+
+#~ msgid "Donate now"
+#~ msgstr "Поддержать проект"
+
+#~ msgid ""
+#~ "Noticed a bug or have an idea how to improve the quality of the plugin?"
+#~ msgstr "Заметили ошибку или есть идея как улучшить качество плагина?"
+
+#~ msgid "Let me know"
+#~ msgstr "Напишите мне"
+
+#~ msgid "The author of the plugin Maxim Glazunov"
+#~ msgstr "С уважением, Максим Глазунов"
+
+#~ msgid "Accept orders for individual revision of the plugin"
+#~ msgstr "Принимаю заказы на индивидуальные доработки плагина"
+
+#~ msgid "Leave a request"
+#~ msgstr "Оставить заявку"
+
+#~ msgid "Reset plugin settings"
+#~ msgstr "Сбросить настройки плагина"
+
+#~ msgid "Reset plugin settings can be useful in the event of a problem"
+#~ msgstr ""
+#~ "Сброс настроек плагина может быть полезен в случае возникновения проблем"
+
+#~ msgid "Send data about the work of the plugin"
+#~ msgstr "Отправить данные о работе плагина"
+
+#~ msgid "Sending statistics you help make the plugin even better!"
+#~ msgstr "Пожалуйста, помогите сделать плагин лучше"
+
+#~ msgid "The following data will be transferred"
+#~ msgstr "Следующие данные будут переданы"
+
+#~ msgid "Site URL"
+#~ msgstr "УРЛ сайта"
+
+#~ msgid "File generation status"
+#~ msgstr "Статус генерации фида"
+
+#~ msgid "URL YML-feed"
+#~ msgstr "УРЛ YML-фида"
+
+#~ msgid "Is the multisite mode enabled?"
+#~ msgstr "Включен ли режим multisite?"
+
+#~ msgid "The plugin helped you download the products to the Yandex Market"
+#~ msgstr "Помог ли Вам плагин загрузить продукцию на Yandex Market"
+
+#~ msgid ""
+#~ "If you don't mind to be contacted in case of problems, please enter your "
+#~ "email address"
+#~ msgstr ""
+#~ "Если вы не возражаете, чтобы с Вами связались в случае возникновения "
+#~ "дополнительных вопросов по поводу работы плагина, то укажите Ваш адрес "
+#~ "электронной почты"
+
+#~ msgid "Send data"
+#~ msgstr "Отправить данные"
+
+#~ msgid "Export Yandex Market"
+#~ msgstr "Экспорт Yandex Market"
+
+#~ msgid "WooCommerce is not active!"
+#~ msgstr "Для работы требуется плагин WooCommerce!"
+
+#~ msgid "On the plugin settings page click on the"
+#~ msgstr "На странице настроек плагина нажмите на кнопку"
+
+#~ msgid "Progress"
+#~ msgstr "Прогресс"
+
+#~ msgid "from"
+#~ msgstr "из"
+
+#~ msgid "products"
+#~ msgstr "товаров"
+
+#~ msgid "Prior to the completion of less than 70 seconds"
+#~ msgstr "До завершения менее 70 секунд"
+
+#~ msgid ""
+#~ "We are working on automatic file creation. YML will be developed soon"
+#~ msgstr ""
+#~ "Идет автоматическое создание файла. Yml-фид в скором времени будет создан"
+
+#~ msgid ""
+#~ "Creating the feed is running. You can continue working with the website"
+#~ msgstr "Создание YML-фида запущено. Вы можете продолжить работу с сайтом"
+
+#~ msgid "Updated"
+#~ msgstr "Обновлено"
+
+#~ msgid "The settings have been reset"
+#~ msgstr "Настройки были сброшены"
+
+#~ msgid "The data has been sent. Thank you"
+#~ msgstr "Данные были отправлены. Спасибо"
+
+#~ msgid "All"
+#~ msgstr "Всё"
+
+#~ msgid "Adult store?"
+#~ msgstr "Магазин для взрослых?"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Settings Maps for WP"
+#~ msgstr "Настройки Maps for WP"
+
+#~ msgid "Text when you hover over a point"
+#~ msgstr "Текст при наведении на точку"
+
+#~ msgid "The image point on the map (36×36)"
+#~ msgstr "Иконка точки на карте (36×36)"
+
+#~ msgid "Zoom map with many points"
+#~ msgstr "Масштаб карты с множеством точек"
+
+#~ msgid "Latitude center map with many points"
+#~ msgstr "Широта центра карты с множеством точек"
+
+#~ msgid "Longitude center map with many points"
+#~ msgstr "Долгота карты с множеством точек"
+
+#~ msgid "Zoom map with one point"
+#~ msgstr "Масштаб карты с одной точкой"
+
+#~ msgid "Latitude map with one point"
+#~ msgstr "Широтка карты с одной точкой"
+
+#~ msgid "Longitude map with one point"
+#~ msgstr "Долготак карты с одной точкой"
+
+#~ msgid "Location"
+#~ msgstr "Местоположение"
+
+#~ msgid "Latitude"
+#~ msgstr "Широта"
+
+#~ msgid "Longitude"
+#~ msgstr "Долгота"
+
+#~ msgid "Country"
+#~ msgstr "Страна"
+
+#~ msgid "Region"
+#~ msgstr "Регион"
+
+#~ msgid "Subadministrative"
+#~ msgstr "Район"
+
+#~ msgid "City"
+#~ msgstr "Город"
+
+#~ msgid "The exact address"
+#~ msgstr "Точный адрес"
+
+#~ msgid "Container Yandex Maps"
+#~ msgstr "Блок Yandex Maps"
