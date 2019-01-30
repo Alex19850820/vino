@@ -18,7 +18,7 @@ require_once (get_template_directory().'/lib/mobile-layout.php');
 require_once (get_template_directory().'/lib/cleanup.php');		// Cleanup
 require_once (get_template_directory().'/lib/nav.php');			// Custom nav modifications
 require_once (get_template_directory().'/lib/widgets.php');		// Sidebars and widgets
-require_once (get_template_directory().'/lib/scripts.php');		// Scripts and stylesheets
+//require_once (get_template_directory().'/lib/scripts.php');		// Scripts and stylesheets
 require_once (get_template_directory().'/lib/plugin-requirement.php');			// Custom functions
 require_once (get_template_directory().'/lib/metabox.php');	// Custom functions
 require_once ( get_template_directory().'/lib/import/sw-import.php' );
@@ -63,13 +63,15 @@ function vino_scripts() {
    */
 	// для локальных стилей
 //
-//	wp_enqueue_style( 'vino-style-css', get_template_directory_uri() . '/assets/css/style.css' );
-//
-//	wp_enqueue_style( 'vino-css-slick', get_template_directory_uri() . '/assets/css/slick.css' );
-//
-//	wp_enqueue_style( 'vino-css-slick-theme', get_template_directory_uri() . '/assets/css/slick-theme.css' );
+	wp_enqueue_style( 'vino-style-css', get_template_directory_uri() . '/assets/css/style.css' );
+
+	wp_enqueue_style( 'vino-css-slick', get_template_directory_uri() . '/assets/css/slick.css' );
+
+	wp_enqueue_style( 'vino-css-slick-theme', get_template_directory_uri() . '/assets/css/slick-theme.css' );
 
 //	wp_enqueue_script( 'vino-jquery', get_template_directory_uri() . '/assets/js/jquery-3.2.1.min.js', [], '20151215', true);//
+//	wp_deregister_script( 'jquery' );
+	
 //	wp_enqueue_script( 'vino-jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', [], '20151215', true);
 
 	wp_enqueue_script( 'vino-js-slick', get_template_directory_uri() . '/assets/js/slick.min.js', [], '', true );
