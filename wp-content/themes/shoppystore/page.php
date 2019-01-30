@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header();?>
 <?php 
 	$ya_sidebar_template	= get_post_meta( get_the_ID(), 'page_sidebar_layout', true );
 	$ya_sidebar 					= get_post_meta( get_the_ID(), 'page_sidebar_template', true );

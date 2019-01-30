@@ -1,4 +1,4 @@
-<?php $ya_header_style 	= ya_options()->getCpanelValue('header_style'); ?>
+<?php $ya_header_style 	= ya_options()->getCpanelValue('header_style');?>
 
 <?php get_header( $ya_header_style ) ?>
 <div class="container">

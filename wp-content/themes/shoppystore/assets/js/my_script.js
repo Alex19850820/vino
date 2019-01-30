@@ -31,7 +31,6 @@ $(document).ready(function() {
 	jQuery('.grid').imagesLoaded( function() {
 		jQuery('.grid-preloader').css('display', 'none');
 		jQuery('.grid, .more_btn').css('display', 'block');
-
 		jQuery('.grid').masonry({
 			itemSelector: '.grid-item',
 			percentPosition: true
@@ -166,4 +165,11 @@ $(document).ready(function() {
 	// 	centerMode: true,
 	// 	focusOnSelect: true
 	// });
+	jQuery('.aws-search-form').submit('click', function () {
+		// alert('sdfsdf'); return false;
+		var string = jQuery('.aws-search-field').val();
+		window.location.replace("https://" + document.domain + "/category/?swoof=1&woof_text=" + string);
+		return false;
+	} )
+	// category/?swoof=1&woof_text=виски
 });
