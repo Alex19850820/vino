@@ -3,17 +3,25 @@ window.fwExtBuilderInitialize = (function ($) {
 		increment: 0,
 		$adminBar: $('#wpadminbar'),
 		getAdminBarHeight: function() {
+			var height = 0;
+
 			if (this.$adminBar.length && this.$adminBar.css('position') === 'fixed') {
-				return this.$adminBar.height();
-			} else {
-				return 0;
+				height = this.$adminBar.height();
 			}
+
+			var gutenbergContainer = $( '#editor.block-editor__container' );
+
+			if ( gutenbergContainer.length > 0 ) {
+				height += gutenbergContainer.find( '.edit-post-header' ).outerHeight() + gutenbergContainer.find( '.components-notice-list' ).height();
+			}
+
+			return height;
 		},
 		fix: function($header, $builder, $scrollParent){
 			var topSpace = this.getAdminBarHeight(),
 				scrollParentHeight = $scrollParent.height(),
-				scrollParentScrollTop = $scrollParent.scrollTop(),
-				scrollParentOffset = $scrollParent.offset(),
+				scrollParentScrollTop = $( document ).scrollTop(),
+				scrollParentOffset = $( document ).offset(),
 				builderHeight = $builder.get(0).clientHeight,
 				builderOffsetTop = $builder.offset().top,
 				headerHeight = $header.get(0).clientHeight;
@@ -117,7 +125,14 @@ window.fwExtBuilderInitialize = (function ($) {
 	function initDraggable ($this, builder, id) {
 		fwEvents.trigger('fw:options:init:tabs', {$elements: $this.find('> .builder-items-types')});
 
-		$this.find('> .builder-items-types .builder-item-type').draggable({
+		var additionalSortableOptions = {}
+
+		fwEvents.trigger(
+			'fw-builder:'+ builder.get('type') +':toolbar-sortable-additional-options',
+			additionalSortableOptions
+		)
+
+		$this.find('> .builder-items-types .builder-item-type').draggable(_.extend({
 			connectToSortable: '#'+ id +' .builder-root-items .builder-items',
 			helper: 'clone',
 			distance: 10,
@@ -176,7 +191,7 @@ window.fwExtBuilderInitialize = (function ($) {
 					});
 				}
 			}
-		});
+		}, additionalSortableOptions));
 
 		/**
 		 * Add item on thumbnail click
@@ -575,4 +590,3 @@ window.fwExtBuilderInitialize = (function ($) {
 		$options.addClass('initialized');
 	}
 })(jQuery);
-

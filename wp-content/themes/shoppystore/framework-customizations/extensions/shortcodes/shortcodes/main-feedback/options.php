@@ -13,104 +13,48 @@ $options = [
 		'value' => 'Отзывы',
 		'label' => __('Заголовок', '{domain}'),
 	],
-	'feedbacks' => [
+	'slider' => [
 		'type' => 'addable-popup',
-		'label' => __('Добавить отзыв', '{domain}'),
+		'label' => __('Добавить слайдер', '{domain}'),
 		'template' => '{{- h2 }}',
 		'size' => 'large', // small, medium, large
 		'limit' => 0, // limit the number of popup`s that can be added
 		'add-button-text' => __('добавить', '{domain}'),
 		'sortable' => true,
 		'popup-options' => [
-			'img'     => [
-				'type'  => 'upload',
-				'value' => '',
-				'label' => __('Добавить картинку', '{domain}'),
-				'images_only' => true,
-			],
 			'h2'     => [
 				'type'  => 'text',
-				'value' => 'Отзыв',
-				'label' => __('Заголовок', '{domain}'),
+				'   value' => 'Текст',
+				'   label' => __('Название первого экрана слайда', '{domain}'),
 			],
-			'text'     => [
-				'type'  => 'textarea',
-				'value' => 'Отзыв',
-				'label' => __('Заголовок', '{domain}'),
+			'slide' => [
+				'type' => 'addable-popup',
+				'label' => __('Добавить слайд', '{domain}'),
+				'template' => '{{- h2 }}',
+				'size' => 'large', // small, medium, large
+				'limit' => 0, // limit the number of popup`s that can be added
+				'add-button-text' => __('добавить', '{domain}'),
+				'sortable' => true,
+				'popup-options' => [
+					'img'     => [
+						'type'  => 'upload',
+						'value' => '',
+						'label' => __('Добавить картинку', '{domain}'),
+						'images_only' => true,
+					],
+					'h2'     => [
+						'type'  => 'text',
+						'value' => 'Текст',
+						'label' => __('Текст для слайда', '{domain}'),
+					],
+					],
+					'href'     => [
+						'type'  => 'text',
+						'value' => '',
+						'label' => __('Сылка', '{domain}'),
+					],
 			],
+			
 		]
 	]
-	/*'title'     => [
-		'type'  => 'text',
-		'value' => 'наши результаты',
-		'label' => __('Заголовок', '{domain}'),
-	],
-	'img'     => [
-		'type'  => 'upload',
-		'value' => '',
-		'label' => __('Добавить картинку', '{domain}'),
-		'images_only' => true,
-	],
-	'title2'     => [
-		'type'  => 'text',
-		'value' => 'Наша миссия - Ваша красота',
-		'label' => __('Заголовок поста', '{domain}'),
-	],*/
-//	'house' => [
-//		'type' => 'addable-popup',
-//		'label' => __('Добавить информацию', '{domain}'),
-//		'template' => '{{- h2 }}',
-//		'size' => 'large', // small, medium, large
-//		'limit' => 0, // limit the number of popup`s that can be added
-//		'add-button-text' => __('добавить', '{domain}'),
-//		'sortable' => true,
-//		'popup-options' => [
-////			'img'     => [
-////				'type'  => 'upload',
-////				'value' => '',
-////				'label' => __('Добавить картинку здания', '{domain}'),
-////				'images_only' => true,
-////			],
-////			'h2'     => [
-////				'type'  => 'text',
-////				'value' => '',
-////				'label' => __('Заголовок', '{domain}'),
-////			],
-//			'price'     => [
-//				'type'  => 'text',
-//				'value' => 'от <span>2</span> млн. руб.',
-//				'label' => __('Цена', '{domain}'),
-//			],
-//			'area'     => [
-//				'type'  => 'text',
-//				'value' => 'от 184 500 р./м<sup>2</sup>',
-//				'label' => __('Цена за кв метр', '{domain}'),
-//			],
-//			'city'     => [
-//				'type'  => 'text',
-//				'value' => '',
-//				'label' => __('Город', '{domain}'),
-//			],
-//			'md'     => [
-//				'type'  => 'text',
-//				'value' => '',
-//				'label' => __('Микрорайон', '{domain}'),
-//			],
-//			'info'     => [
-//				'type'  => 'text',
-//				'value' => '',
-//				'label' => __('Текст ссылки', '{domain}'),
-//				'desc'  => __('Подробнее или еще или узнать больше...', '{domain}'),
-//				'help'  => __('Введите текст', '{domain}'),
-//			],
-//			'href'     => [
-//				'type'  => 'text',
-//				'value' => '',
-//				'label' => __('Ссылка', '{domain}'),
-//				'desc'  => __('Введите адрес на который будет ссылаться страница', '{domain}'),
-//				'help'  => __('Введите страницу', '{domain}'),
-//			],
-//		],
-//	],
-//
 ];

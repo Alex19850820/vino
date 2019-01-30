@@ -32,7 +32,15 @@ function ya_scripts() {
 			$app_css_page = $css_url . '/css/homepage-default.css';
 		}		
 	}
+	
+	
+	wp_enqueue_style( 'vino-style-css', get_template_directory_uri() . '/assets/css/style.css' );
 
+	wp_enqueue_style( 'vino-css-slick', get_template_directory_uri() . '/assets/css/slick.css' );
+
+	wp_enqueue_style( 'vino-css-slick-theme', get_template_directory_uri() . '/assets/css/slick-theme.css' );
+	
+	
 	wp_register_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), null);
 	wp_register_style('ya_photobox_css', get_template_directory_uri() . '/css/photobox.css', array(), null);	
 	wp_register_style('rtl_css', get_template_directory_uri() . '/css/rtl.css', array(), null);
@@ -195,7 +203,6 @@ function ya_scripts() {
 		wp_dequeue_script( 'preload_script' );
 		wp_dequeue_script( 'accountingjs' );
 		wp_dequeue_script( 'yith-woocompare-main' );
-		
 	endif;
 }
 add_action('wp_enqueue_scripts', 'ya_scripts', 100);

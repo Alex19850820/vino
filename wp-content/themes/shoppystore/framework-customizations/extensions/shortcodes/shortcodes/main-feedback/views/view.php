@@ -14,17 +14,54 @@
 		<h2><?=$atts['h2']?></h2>
 		<div class="row">
 			<div class="responsive slider">
-			<?php foreach ($atts['feedbacks'] as $feedback):?>
-				<div>
-					<div class="rd-feedback block">
-						<img  class="rd-feedback round" src="<?=$feedback['img']['url']?>">
-						<h2><?=$feedback['h2']?></h2>
-						<p>
-							<?=$feedback['text']?>
-						</p>
+				<?php foreach ($atts['slider'] as $feedback):?>
+				
+	<!--					<div id="gallery">-->
+	<!--						--><?php //foreach ($feedback['slide'] as $slide):?>
+	<!--							<div class="item-masonry sizer4">-->
+	<!--								<img src="--><?//=$slide['img']['url']?><!--" alt="">-->
+	<!--								<div class="cover-item-gallery">-->
+	<!--									<a href="">-->
+	<!--										<i class="fa fa-search fa-2x">--><?//=$slide['h2']?><!--</i>-->
+	<!--									</a>-->
+	<!--								</div>-->
+	<!--							</div>-->
+	<!--						--><?php //endforeach;?>
+	<!--					</div>-->
+					<div>
+					<div class="grid">
+						<?php foreach ($feedback['slide'] as $slide):?>
+							<div class="grid-item">
+								<a class="grid-item__watch" href="<?=$slide['href']?>"><?=$slide['h2']?></a>
+
+								<a class="grid-item__fancybox" href="<?=$slide['img']['url']?>" data-fancybox="images" data-caption="
+										<div class='portfolio__block-caption'>
+											<span></span>
+										</div">
+					
+										<span class="magnifier">
+											<img src="<?php bloginfo('template_url')?>/assets/img/full-size.svg" width="20" height="20" alt="">
+										</span>
+								</a>
+
+								<a href="">
+									<img src="<?=$slide['img']['url']?>" alt="">
+								</a>
+							</div>
+						
+<!--						<div class="grid-item grid-item--width2">-->
+<!--							<a href="">-->
+<!--								<i class="fa fa-search fa-2x">--><?//=$slide['h2']?><!--</i>-->
+<!--							</a>-->
+<!--						</div>-->
+						
+						<?php endforeach;?>
+					
+						
 					</div>
-				</div>
-			<?php endforeach;?>
+					</div>
+					
+				<?php endforeach;?>
 			</div>
 		</div>
 	</div>
