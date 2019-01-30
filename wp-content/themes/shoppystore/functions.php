@@ -69,7 +69,8 @@ function vino_scripts() {
 //
 //	wp_enqueue_style( 'vino-css-slick-theme', get_template_directory_uri() . '/assets/css/slick-theme.css' );
 
-//	wp_enqueue_script( 'vino-jquery', get_template_directory_uri() . '/assets/js/jquery-3.2.1.min.js', [], '20151215', true);
+//	wp_enqueue_script( 'vino-jquery', get_template_directory_uri() . '/assets/js/jquery-3.2.1.min.js', [], '20151215', true);//
+	wp_enqueue_script( 'vino-jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', [], '20151215', true);
 
 	wp_enqueue_script( 'vino-js-slick', get_template_directory_uri() . '/assets/js/slick.min.js', [], '', true );
 	
