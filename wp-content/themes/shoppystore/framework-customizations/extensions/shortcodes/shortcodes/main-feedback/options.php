@@ -25,7 +25,7 @@ $options = [
 			'h2'     => [
 				'type'  => 'text',
 				'   value' => 'Текст',
-				'   label' => __('Название первого экрана слайда', '{domain}'),
+				'   label' => __('Название экрана слайда(номер)', '{domain}'),
 			],
 			'slide' => [
 				'type' => 'addable-popup',
@@ -47,14 +47,13 @@ $options = [
 						'value' => 'Текст',
 						'label' => __('Текст для слайда', '{domain}'),
 					],
-					],
 					'href'     => [
 						'type'  => 'text',
 						'value' => '',
 						'label' => __('Сылка', '{domain}'),
 					],
+				],
 			],
-			
 		]
 	]
 ];
