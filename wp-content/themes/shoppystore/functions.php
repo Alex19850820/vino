@@ -107,6 +107,7 @@ add_action( 'wp_enqueue_scripts', 'vino_scripts');
 
 //function my_deregister_java () {
 //
-//		wp_deregister_script ( 'jquery' );
+////		wp_deregister_script ( 'jquery' );
+//		wp_deregister_style('yith-wcwl-font-awesome-css');
 //}
 //add_action ( 'wp_print_scripts', 'my_deregister_java', 100 );
