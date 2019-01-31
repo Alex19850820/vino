@@ -746,6 +746,6 @@ if( !function_exists( 'sw_label_new' ) ){
 /*
 ** Check for mobile layout
 */
-if( ya_mobile_check() ){
-	remove_action( 'woocommerce_before_shop_loop', 'woocommerce_pagination', 35 );
-}
+//if( ya_mobile_check() ){
+//	remove_action( 'woocommerce_before_shop_loop', 'woocommerce_pagination', 35 );
+//}

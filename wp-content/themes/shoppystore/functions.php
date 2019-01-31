@@ -74,16 +74,16 @@ function vino_scripts() {
 	
 //	wp_enqueue_script( 'vino-jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', [], '20151215', true);
 
-	wp_enqueue_script( 'vino-js-slick', get_template_directory_uri() . '/assets/js/slick.min.js', [], '', true );
+	wp_enqueue_script( 'vino-js-slick', get_template_directory_uri() . '/assets/js/slick.min.js', array('jquery'), '', true );
 	
 	wp_enqueue_script( 'vino-fancybox', 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js', [], '', true );
-	wp_enqueue_script( 'vino-dotdotdot', get_template_directory_uri() . '/assets/js/jquery.dotdotdot.js', [], '', true );
+	wp_enqueue_script( 'vino-dotdotdot', get_template_directory_uri() . '/assets/js/jquery.dotdotdot.js', array('jquery'), '', true );
 	
-	wp_enqueue_script( 'vino-js_imageloaded', get_template_directory_uri() . '/assets/js/imagesloaded.pkgd.min.js', [], '', true );
+	wp_enqueue_script( 'vino-js_imageloaded', get_template_directory_uri() . '/assets/js/imagesloaded.pkgd.min.js', array('jquery'), '', true );
 	
-	wp_enqueue_script( 'vino-js_masonry', get_template_directory_uri() . '/assets/js/masonry.pkgd.min.js', [], '', true );
+	wp_enqueue_script( 'vino-js_masonry', get_template_directory_uri() . '/assets/js/masonry.pkgd.min.js', array('jquery'), '', true );
 //
-	wp_enqueue_script( 'vino-js_my_script', get_template_directory_uri() . '/assets/js/my_script.js', [], '', true );
+	wp_enqueue_script( 'vino-js_my_script', get_template_directory_uri() . '/assets/js/my_script.js', array('jquery'), '', true );
 
 	/*
     * Добавляем возможность отправлять AJAX-запросы к скриптам

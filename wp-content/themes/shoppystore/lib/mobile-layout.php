@@ -103,13 +103,14 @@ function ya_content_detail_check(){
 if( !function_exists( 'ya_mobile_check' ) ){
 
 	function ya_mobile_check(){
-		global $ya_detect;
-		$mobile_check   = ya_options()->getCpanelValue( 'mobile_enable' );
-		if( !empty( $ya_detect ) && $mobile_check && $ya_detect->isMobile() && !$ya_detect->isTablet() ) :
-			return true;
-		else: 
-			return false;
-		endif;
+//		global $ya_detect;
+//		$mobile_check   = ya_options()->getCpanelValue( 'mobile_enable' );
+//		if( !empty( $ya_detect ) && $mobile_check && $ya_detect->isMobile() && !$ya_detect->isTablet() ) :
+//			return true;
+//		else:
+//			return false;
+//		endif;
+//		return false;
 		return false;
 	}
 }
