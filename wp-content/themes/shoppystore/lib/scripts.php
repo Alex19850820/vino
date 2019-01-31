@@ -60,7 +60,7 @@ function ya_scripts() {
 	wp_register_script('ya_accordion',get_template_directory_uri().'/js/jquery.accordion.js',array(),null,true);
 	wp_register_script('megamenu_js', get_template_directory_uri() . '/js/megamenu.js', array(), null, true);
 	wp_register_script('quantity_js', get_template_directory_uri() . '/js/wc-quantity-increment.min.js', array('jquery'), null, true);
-	wp_register_script('ya_theme_js', get_template_directory_uri() . '/js/main.js', array('bootstrap_js'), null, true);
+	wp_register_script('ya_theme_js', get_template_directory_uri() . '/js/main.min.js', array('bootstrap_js'), null, true);
 	/* enqueue script & style */
 	if ( !is_admin() ){	
 		wp_dequeue_style('fontawesome_css');
@@ -106,7 +106,7 @@ function ya_scripts() {
 	);
 
 	wp_localize_script( 'ya_theme_js', 'custom_text', $translation_text ); 
-	wp_enqueue_script( 'ya_theme_js', get_template_directory_uri() . '/js/main.js', array(), null, true );
+	wp_enqueue_script( 'ya_theme_js', get_template_directory_uri() . '/js/main.min.js', array(), null, true );
 	
 	if( ya_options()-> getCpanelValue( 'menu_type' ) == 'mega' ){
 		wp_enqueue_script('megamenu_js');	
