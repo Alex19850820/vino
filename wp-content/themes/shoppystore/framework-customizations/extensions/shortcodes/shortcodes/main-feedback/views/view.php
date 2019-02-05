@@ -32,10 +32,12 @@
 					<div class="grid">
 						<?php foreach ($feedback['slide'] as $slide):?>
 							<div class="grid-item">
-								<a class="grid-item__watch" href="<?=$slide['href']?>">
-									<?=$slide['h2']?>
-								</a>
-
+								<div class="product-cat-footer">
+									<a class="grid-item__watch" href="<?=$slide['href']?>">
+										<?=$slide['h2']?>
+									</a>
+								</div>
+								
 								<a class="grid-item__fancybox" href="<?=$slide['img']['url']?>" data-fancybox="images" data-caption="
 										<div class='portfolio__block-caption'>
 											<span><?=$slide['h2']?></span>
@@ -50,7 +52,7 @@
 									<img src="<?=$slide['img']['url']?>" alt="">
 								</a>
 							</div>
-						
+<!--						-->
 <!--						<div class="grid-item grid-item--width2">-->
 <!--							<a href="">-->
 <!--								<i class="fa fa-search fa-2x">--><?//=$slide['h2']?><!--</i>-->
