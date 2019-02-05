@@ -35,9 +35,6 @@
 								<div class="product-cat-footer">
 								
 								</div>
-								<a class="grid-item__watch" href="<?=$slide['href']?>">
-									<?=$slide['h2']?>
-								</a>
 								<a class="grid-item__fancybox" href="<?=$slide['img']['url']?>" data-fancybox="images" data-caption="
 										<div class='portfolio__block-caption'>
 											<span><?=$slide['h2']?></span>
@@ -50,6 +47,9 @@
 
 								<a href="">
 									<img src="<?=$slide['img']['url']?>" alt="">
+								</a>
+								<a class="grid-item__watch" href="<?=$slide['href']?>">
+									<?=$slide['h2']?>
 								</a>
 							</div>
 <!--						-->
