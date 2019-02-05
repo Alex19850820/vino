@@ -54,7 +54,7 @@
 /*masonry*/
 .grid-item img {
 	display: block;
-	width: 80%;
+	/*width: 80%;*/
 	height: 80%;
 	/*height: 200px;*/
 	max-width:100%;
