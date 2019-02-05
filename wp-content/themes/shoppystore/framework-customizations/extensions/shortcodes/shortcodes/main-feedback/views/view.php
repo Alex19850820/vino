@@ -33,11 +33,11 @@
 						<?php foreach ($feedback['slide'] as $slide):?>
 							<div class="grid-item">
 								<div class="product-cat-footer">
-									<a class="grid-item__watch" href="<?=$slide['href']?>">
-										<?=$slide['h2']?>
-									</a>
-								</div>
 								
+								</div>
+								<a class="grid-item__watch" href="<?=$slide['href']?>">
+									<?=$slide['h2']?>
+								</a>
 								<a class="grid-item__fancybox" href="<?=$slide['img']['url']?>" data-fancybox="images" data-caption="
 										<div class='portfolio__block-caption'>
 											<span><?=$slide['h2']?></span>

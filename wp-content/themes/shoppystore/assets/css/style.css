@@ -198,12 +198,12 @@
 }
 
 .grid-item__watch, .more_btn {
-	/*right: 0;*/
+	right: 0;
 	/*bottom: 20px;*/
-	left: 100px;
+	left: 0;
 	display: block;
 	max-width: 170px;
-	margin: 0 auto;
+	margin: 177px auto;
 	padding: 10px 15px;
 	font-size: 15px;
 	font-family: GilroyMedium, sans-serif;
@@ -265,11 +265,11 @@
 	width: 20px;
 	height: 20px;
 }
-.product-cat-footer {
-	position: absolute;
-	margin: 205px auto;
-	display: block;
-}
+/*.product-cat-footer {*/
+	/*position: absolute;*/
+	/*margin: 205px auto;*/
+	/*display: block;*/
+/*}*/
 /*my settings*/
 .slick-dots > li {
 	display: none !important;
